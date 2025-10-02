@@ -1,74 +1,47 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, integer, timestamp, jsonb, boolean } from "drizzle-orm/pg-core";
-import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
+export const profileSchema = z.object({
+  name: z.string(),
+  title: z.string(),
+  bio: z.string(),
+  email: z.string().email().optional(),
+  avatar: z.string().optional(),
 });
 
-export const campaigns = pgTable("campaigns", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  name: text("name").notNull(),
-  description: text("description"),
-  status: text("status").notNull().default("draft"), // draft, active, paused, completed
-  budget: integer("budget").notNull(),
-  channels: jsonb("channels").notNull().default([]), // email, social, ads, content
-  metrics: jsonb("metrics").default({}), // performance data
-  startDate: timestamp("start_date"),
-  endDate: timestamp("end_date"),
-  userId: varchar("user_id").references(() => users.id),
-  createdAt: timestamp("created_at").defaultNow(),
-  updatedAt: timestamp("updated_at").defaultNow(),
+export const skillSchema = z.object({
+  id: z.string(),
+  category: z.string(),
+  title: z.string(),
+  subtitle: z.string(),
+  icon: z.string(),
+  features: z.array(z.string()),
 });
 
-export const backups = pgTable("backups", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  type: text("type").notNull(), // campaigns, assets, analytics
-  size: integer("size").notNull(), // in bytes
-  status: text("status").notNull().default("completed"), // pending, completed, failed
-  userId: varchar("user_id").references(() => users.id),
-  createdAt: timestamp("created_at").defaultNow(),
+export const processStepSchema = z.object({
+  number: z.string(),
+  title: z.string(),
+  description: z.string(),
+  features: z.array(z.string()),
 });
 
-export const analytics = pgTable("analytics", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  campaignId: varchar("campaign_id").references(() => campaigns.id),
-  date: timestamp("date").notNull(),
-  impressions: integer("impressions").default(0),
-  clicks: integer("clicks").default(0),
-  conversions: integer("conversions").default(0),
-  revenue: integer("revenue").default(0), // in cents
-  createdAt: timestamp("created_at").defaultNow(),
+export const projectSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  description: z.string(),
+  image: z.string().optional(),
+  tags: z.array(z.string()),
+  link: z.string().optional(),
+  featured: z.boolean().optional(),
 });
 
-export const insertUserSchema = createInsertSchema(users).omit({
-  id: true,
+export const socialLinkSchema = z.object({
+  platform: z.string(),
+  url: z.string(),
+  icon: z.string(),
 });
 
-export const insertCampaignSchema = createInsertSchema(campaigns).omit({
-  id: true,
-  createdAt: true,
-  updatedAt: true,
-});
-
-export const insertBackupSchema = createInsertSchema(backups).omit({
-  id: true,
-  createdAt: true,
-});
-
-export const insertAnalyticsSchema = createInsertSchema(analytics).omit({
-  id: true,
-  createdAt: true,
-});
-
-export type InsertUser = z.infer<typeof insertUserSchema>;
-export type User = typeof users.$inferSelect;
-export type InsertCampaign = z.infer<typeof insertCampaignSchema>;
-export type Campaign = typeof campaigns.$inferSelect;
-export type InsertBackup = z.infer<typeof insertBackupSchema>;
-export type Backup = typeof backups.$inferSelect;
-export type InsertAnalytics = z.infer<typeof insertAnalyticsSchema>;
-export type Analytics = typeof analytics.$inferSelect;
+export type Profile = z.infer<typeof profileSchema>;
+export type Skill = z.infer<typeof skillSchema>;
+export type ProcessStep = z.infer<typeof processStepSchema>;
+export type Project = z.infer<typeof projectSchema>;
+export type SocialLink = z.infer<typeof socialLinkSchema>;

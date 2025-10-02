@@ -1,217 +1,160 @@
-import { type User, type InsertUser, type Campaign, type InsertCampaign, type Backup, type InsertBackup, type Analytics, type InsertAnalytics } from "@shared/schema";
-import { randomUUID } from "crypto";
+import { type Profile, type Skill, type ProcessStep, type Project, type SocialLink } from "@shared/schema";
 
 export interface IStorage {
-  // Users
-  getUser(id: string): Promise<User | undefined>;
-  getUserByUsername(username: string): Promise<User | undefined>;
-  createUser(user: InsertUser): Promise<User>;
-  
-  // Campaigns
-  getCampaigns(userId?: string): Promise<Campaign[]>;
-  getCampaign(id: string): Promise<Campaign | undefined>;
-  createCampaign(campaign: InsertCampaign): Promise<Campaign>;
-  updateCampaign(id: string, updates: Partial<Campaign>): Promise<Campaign | undefined>;
-  deleteCampaign(id: string): Promise<boolean>;
-  
-  // Backups
-  getBackups(userId?: string): Promise<Backup[]>;
-  createBackup(backup: InsertBackup): Promise<Backup>;
-  
-  // Analytics
-  getAnalytics(campaignId?: string): Promise<Analytics[]>;
-  createAnalytics(analytics: InsertAnalytics): Promise<Analytics>;
+  getProfile(): Promise<Profile>;
+  getSkills(): Promise<Skill[]>;
+  getProcessSteps(): Promise<ProcessStep[]>;
+  getProjects(): Promise<Project[]>;
+  getSocialLinks(): Promise<SocialLink[]>;
 }
 
 export class MemStorage implements IStorage {
-  private users: Map<string, User>;
-  private campaigns: Map<string, Campaign>;
-  private backups: Map<string, Backup>;
-  private analytics: Map<string, Analytics>;
+  private profile: Profile;
+  private skills: Skill[];
+  private processSteps: ProcessStep[];
+  private projects: Project[];
+  private socialLinks: SocialLink[];
 
   constructor() {
-    this.users = new Map();
-    this.campaigns = new Map();
-    this.backups = new Map();
-    this.analytics = new Map();
-    
-    // Initialize with sample data for demo
-    this.initializeSampleData();
-  }
-
-  private initializeSampleData() {
-    // Create default user
-    const defaultUser: User = {
-      id: "user-1",
-      username: "demo@campaignflow.com",
-      password: "demo"
+    this.profile = {
+      name: "Alex Rivera",
+      title: "Creative Developer & Designer",
+      bio: "Crafting beautiful digital experiences that blend innovative design with cutting-edge technology. Specialized in creating web applications that users love.",
+      email: "hello@alexrivera.dev",
     };
-    this.users.set(defaultUser.id, defaultUser);
 
-    // Create sample campaigns
-    const sampleCampaigns: Campaign[] = [
+    this.skills = [
       {
-        id: "camp-1",
-        name: "Spring Product Launch",
-        description: "Multi-channel campaign for Q2 product launch",
-        status: "active",
-        budget: 125000,
-        channels: ["email", "social", "ads"],
-        metrics: { reach: 84320, conversions: 2847, roi: 247 },
-        startDate: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
-        endDate: new Date(Date.now() + 25 * 24 * 60 * 60 * 1000),
-        userId: defaultUser.id,
-        createdAt: new Date(),
-        updatedAt: new Date()
+        id: "strategy",
+        category: "Strategy",
+        title: "Strategic Planning",
+        subtitle: "Foundation & Vision",
+        icon: "lightbulb",
+        features: [
+          "User Research & Analysis",
+          "Competitive Benchmarking",
+          "Information Architecture",
+          "Goal Setting & KPIs",
+          "Project Roadmapping",
+          "Stakeholder Alignment"
+        ]
       },
       {
-        id: "camp-2",
-        name: "Black Friday 2024",
-        description: "Holiday season promotional campaign",
-        status: "scheduled",
-        budget: 450000,
-        channels: ["email", "social", "ads", "content"],
-        metrics: { reach: 0, conversions: 0, roi: 0 },
-        startDate: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
-        endDate: new Date(Date.now() + 60 * 24 * 60 * 60 * 1000),
-        userId: defaultUser.id,
-        createdAt: new Date(),
-        updatedAt: new Date()
+        id: "design",
+        category: "Design",
+        title: "Creative Design",
+        subtitle: "Visual Excellence",
+        icon: "palette",
+        features: [
+          "UI/UX Design",
+          "Design Systems",
+          "Responsive Layouts",
+          "Brand Identity",
+          "Prototyping & Wireframes",
+          "Accessibility Standards"
+        ]
       },
       {
-        id: "camp-3",
-        name: "Customer Retention Q4",
-        description: "Re-engagement campaign for inactive customers",
-        status: "active",
-        budget: 82000,
-        channels: ["email"],
-        metrics: { reach: 15420, conversions: 1893, roi: 312 },
-        startDate: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000),
-        endDate: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000),
-        userId: defaultUser.id,
-        createdAt: new Date(),
-        updatedAt: new Date()
+        id: "build",
+        category: "Build",
+        title: "Development",
+        subtitle: "Technical Execution",
+        icon: "code",
+        features: [
+          "React & TypeScript",
+          "Modern CSS & Tailwind",
+          "API Integration",
+          "Performance Optimization",
+          "Testing & Quality",
+          "Deployment & DevOps"
+        ]
       }
     ];
 
-    sampleCampaigns.forEach(campaign => {
-      this.campaigns.set(campaign.id, campaign);
-    });
-
-    // Create sample backups
-    const sampleBackups: Backup[] = [
+    this.processSteps = [
       {
-        id: "backup-1",
-        type: "campaigns",
-        size: 2400000,
-        status: "completed",
-        userId: defaultUser.id,
-        createdAt: new Date(Date.now() - 2 * 60 * 1000)
+        number: "01",
+        title: "Define",
+        description: "Understand your goals, target audience, and project requirements. Conduct research and create a strategic foundation for success.",
+        features: ["Discovery Sessions", "User Research", "Project Scope"]
       },
       {
-        id: "backup-2",
-        type: "assets",
-        size: 18700000,
-        status: "completed",
-        userId: defaultUser.id,
-        createdAt: new Date(Date.now() - 5 * 60 * 1000)
+        number: "02",
+        title: "Design",
+        description: "Create intuitive interfaces and engaging visual designs. Develop wireframes, prototypes, and finalized design systems.",
+        features: ["Wireframing", "Visual Design", "Prototyping"]
       },
       {
-        id: "backup-3",
-        type: "analytics",
-        size: 847000,
-        status: "completed",
-        userId: defaultUser.id,
-        createdAt: new Date(Date.now() - 1 * 60 * 1000)
+        number: "03",
+        title: "Build",
+        description: "Transform designs into functional, high-performance applications using modern technologies and best practices.",
+        features: ["Frontend Development", "API Integration", "Testing"]
+      },
+      {
+        number: "04",
+        title: "Launch",
+        description: "Deploy your application, monitor performance, and provide ongoing support to ensure continued success.",
+        features: ["Deployment", "Performance Monitoring", "Maintenance"]
       }
     ];
 
-    sampleBackups.forEach(backup => {
-      this.backups.set(backup.id, backup);
-    });
+    this.projects = [
+      {
+        id: "project-1",
+        name: "E-Commerce Platform",
+        description: "Modern shopping experience with seamless checkout and inventory management",
+        tags: ["React", "TypeScript", "Stripe", "Tailwind"],
+        featured: true
+      },
+      {
+        id: "project-2",
+        name: "SaaS Dashboard",
+        description: "Analytics dashboard for data visualization and business insights",
+        tags: ["Next.js", "D3.js", "PostgreSQL", "Vercel"],
+        featured: true
+      },
+      {
+        id: "project-3",
+        name: "Portfolio Builder",
+        description: "No-code tool for creatives to build stunning portfolio websites",
+        tags: ["Vue", "Firebase", "Tailwind", "Figma"],
+        featured: true
+      },
+      {
+        id: "project-4",
+        name: "Mobile Fitness App",
+        description: "Cross-platform fitness tracker with workout plans and progress tracking",
+        tags: ["React Native", "Node.js", "MongoDB", "AWS"],
+        featured: false
+      }
+    ];
+
+    this.socialLinks = [
+      { platform: "GitHub", url: "https://github.com", icon: "github" },
+      { platform: "LinkedIn", url: "https://linkedin.com", icon: "linkedin" },
+      { platform: "Twitter", url: "https://twitter.com", icon: "twitter" },
+      { platform: "Email", url: "mailto:hello@example.com", icon: "mail" }
+    ];
   }
 
-  async getUser(id: string): Promise<User | undefined> {
-    return this.users.get(id);
+  async getProfile(): Promise<Profile> {
+    return this.profile;
   }
 
-  async getUserByUsername(username: string): Promise<User | undefined> {
-    return Array.from(this.users.values()).find(
-      (user) => user.username === username,
-    );
+  async getSkills(): Promise<Skill[]> {
+    return this.skills;
   }
 
-  async createUser(insertUser: InsertUser): Promise<User> {
-    const id = randomUUID();
-    const user: User = { ...insertUser, id };
-    this.users.set(id, user);
-    return user;
+  async getProcessSteps(): Promise<ProcessStep[]> {
+    return this.processSteps;
   }
 
-  async getCampaigns(userId?: string): Promise<Campaign[]> {
-    const campaigns = Array.from(this.campaigns.values());
-    return userId ? campaigns.filter(c => c.userId === userId) : campaigns;
+  async getProjects(): Promise<Project[]> {
+    return this.projects;
   }
 
-  async getCampaign(id: string): Promise<Campaign | undefined> {
-    return this.campaigns.get(id);
-  }
-
-  async createCampaign(insertCampaign: InsertCampaign): Promise<Campaign> {
-    const id = randomUUID();
-    const campaign: Campaign = {
-      ...insertCampaign,
-      id,
-      createdAt: new Date(),
-      updatedAt: new Date()
-    };
-    this.campaigns.set(id, campaign);
-    return campaign;
-  }
-
-  async updateCampaign(id: string, updates: Partial<Campaign>): Promise<Campaign | undefined> {
-    const campaign = this.campaigns.get(id);
-    if (!campaign) return undefined;
-    
-    const updatedCampaign = { ...campaign, ...updates, updatedAt: new Date() };
-    this.campaigns.set(id, updatedCampaign);
-    return updatedCampaign;
-  }
-
-  async deleteCampaign(id: string): Promise<boolean> {
-    return this.campaigns.delete(id);
-  }
-
-  async getBackups(userId?: string): Promise<Backup[]> {
-    const backups = Array.from(this.backups.values());
-    return userId ? backups.filter(b => b.userId === userId) : backups;
-  }
-
-  async createBackup(insertBackup: InsertBackup): Promise<Backup> {
-    const id = randomUUID();
-    const backup: Backup = {
-      ...insertBackup,
-      id,
-      createdAt: new Date()
-    };
-    this.backups.set(id, backup);
-    return backup;
-  }
-
-  async getAnalytics(campaignId?: string): Promise<Analytics[]> {
-    const analytics = Array.from(this.analytics.values());
-    return campaignId ? analytics.filter(a => a.campaignId === campaignId) : analytics;
-  }
-
-  async createAnalytics(insertAnalytics: InsertAnalytics): Promise<Analytics> {
-    const id = randomUUID();
-    const analytics: Analytics = {
-      ...insertAnalytics,
-      id,
-      createdAt: new Date()
-    };
-    this.analytics.set(id, analytics);
-    return analytics;
+  async getSocialLinks(): Promise<SocialLink[]> {
+    return this.socialLinks;
   }
 }
 

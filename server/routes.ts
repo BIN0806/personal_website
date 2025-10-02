@@ -1,142 +1,50 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertCampaignSchema, insertBackupSchema } from "@shared/schema";
-import { z } from "zod";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Campaigns routes
-  app.get("/api/campaigns", async (req, res) => {
+  app.get("/api/profile", async (_req, res) => {
     try {
-      const campaigns = await storage.getCampaigns();
-      res.json(campaigns);
+      const profile = await storage.getProfile();
+      res.json(profile);
     } catch (error) {
-      res.status(500).json({ message: "Failed to fetch campaigns" });
+      res.status(500).json({ message: "Failed to fetch profile" });
     }
   });
 
-  app.get("/api/campaigns/:id", async (req, res) => {
+  app.get("/api/skills", async (_req, res) => {
     try {
-      const { id } = req.params;
-      const campaign = await storage.getCampaign(id);
-      
-      if (!campaign) {
-        return res.status(404).json({ message: "Campaign not found" });
-      }
-      
-      res.json(campaign);
+      const skills = await storage.getSkills();
+      res.json(skills);
     } catch (error) {
-      res.status(500).json({ message: "Failed to fetch campaign" });
+      res.status(500).json({ message: "Failed to fetch skills" });
     }
   });
 
-  app.post("/api/campaigns", async (req, res) => {
+  app.get("/api/process", async (_req, res) => {
     try {
-      const validatedData = insertCampaignSchema.parse(req.body);
-      const campaign = await storage.createCampaign(validatedData);
-      res.status(201).json(campaign);
+      const steps = await storage.getProcessSteps();
+      res.json(steps);
     } catch (error) {
-      if (error instanceof z.ZodError) {
-        return res.status(400).json({ message: "Invalid campaign data", errors: error.errors });
-      }
-      res.status(500).json({ message: "Failed to create campaign" });
+      res.status(500).json({ message: "Failed to fetch process steps" });
     }
   });
 
-  app.patch("/api/campaigns/:id", async (req, res) => {
+  app.get("/api/projects", async (_req, res) => {
     try {
-      const { id } = req.params;
-      const updates = req.body;
-      
-      const campaign = await storage.updateCampaign(id, updates);
-      if (!campaign) {
-        return res.status(404).json({ message: "Campaign not found" });
-      }
-      
-      res.json(campaign);
+      const projects = await storage.getProjects();
+      res.json(projects);
     } catch (error) {
-      res.status(500).json({ message: "Failed to update campaign" });
+      res.status(500).json({ message: "Failed to fetch projects" });
     }
   });
 
-  app.delete("/api/campaigns/:id", async (req, res) => {
+  app.get("/api/social", async (_req, res) => {
     try {
-      const { id } = req.params;
-      const deleted = await storage.deleteCampaign(id);
-      
-      if (!deleted) {
-        return res.status(404).json({ message: "Campaign not found" });
-      }
-      
-      res.status(204).send();
+      const socialLinks = await storage.getSocialLinks();
+      res.json(socialLinks);
     } catch (error) {
-      res.status(500).json({ message: "Failed to delete campaign" });
-    }
-  });
-
-  // Backups routes
-  app.get("/api/backups", async (req, res) => {
-    try {
-      const backups = await storage.getBackups();
-      res.json(backups);
-    } catch (error) {
-      res.status(500).json({ message: "Failed to fetch backups" });
-    }
-  });
-
-  app.post("/api/backups", async (req, res) => {
-    try {
-      const validatedData = insertBackupSchema.parse(req.body);
-      const backup = await storage.createBackup(validatedData);
-      res.status(201).json(backup);
-    } catch (error) {
-      if (error instanceof z.ZodError) {
-        return res.status(400).json({ message: "Invalid backup data", errors: error.errors });
-      }
-      res.status(500).json({ message: "Failed to create backup" });
-    }
-  });
-
-  // Analytics routes
-  app.get("/api/analytics", async (req, res) => {
-    try {
-      const { campaignId } = req.query;
-      const analytics = await storage.getAnalytics(campaignId as string);
-      res.json(analytics);
-    } catch (error) {
-      res.status(500).json({ message: "Failed to fetch analytics" });
-    }
-  });
-
-  // Dashboard summary endpoint
-  app.get("/api/dashboard/summary", async (req, res) => {
-    try {
-      const campaigns = await storage.getCampaigns();
-      const backups = await storage.getBackups();
-      
-      const activeCampaigns = campaigns.filter(c => c.status === "active").length;
-      const totalReach = campaigns.reduce((sum, c) => sum + (c.metrics?.reach || 0), 0);
-      const totalConversions = campaigns.reduce((sum, c) => sum + (c.metrics?.conversions || 0), 0);
-      const avgROI = campaigns.length > 0 
-        ? campaigns.reduce((sum, c) => sum + (c.metrics?.roi || 0), 0) / campaigns.length 
-        : 0;
-
-      const conversionRate = totalReach > 0 ? (totalConversions / totalReach * 100) : 0;
-      const lastBackup = backups.sort((a, b) => 
-        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-      )[0];
-
-      res.json({
-        activeCampaigns,
-        totalReach: Math.round(totalReach / 1000) / 1000, // Convert to K/M format
-        conversionRate: Math.round(conversionRate * 100) / 100,
-        avgROI: Math.round(avgROI),
-        lastBackup: lastBackup?.createdAt || new Date(),
-        totalCampaigns: campaigns.length,
-        backupStatus: "active"
-      });
-    } catch (error) {
-      res.status(500).json({ message: "Failed to fetch dashboard summary" });
+      res.status(500).json({ message: "Failed to fetch social links" });
     }
   });
 
