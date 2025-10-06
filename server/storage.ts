@@ -17,10 +17,10 @@ export class MemStorage implements IStorage {
 
   constructor() {
     this.profile = {
-      name: "Alex Rivera",
-      title: "Creative Developer & Designer",
-      bio: "Crafting beautiful digital experiences that blend innovative design with cutting-edge technology. Specialized in creating web applications that users love.",
-      email: "hello@alexrivera.dev",
+      name: "Billy Nguyen",
+      title: "Software Engineer",
+      bio: "Possibility is the uncertainity we hope to understand.",
+      email: "bnvinh0808[at]gmail.com",
     };
 
     this.skills = [

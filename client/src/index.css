@@ -1,8 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* ----- Vintage Editorial Design Integration ----- */
+/* Design tokens for vintage aesthetic */
+:root {
+  --vintage-bg: #fcfaf6;
+  --vintage-ink: #161513;
+  --vintage-muted: #4b463f;
+  --vintage-accent: #8a1f2d;
+  --vintage-accent-2: #3b3a37;
+  --vintage-link: #611622;
+  --vintage-link-hover: #b12c40;
+  
+  --step--1: clamp(.9rem, .86rem + .2vw, 1rem);
+  --step-0:  clamp(1rem, .98rem + .35vw, 1.125rem);
+  --step-1:  clamp(1.25rem, 1.1rem + .9vw, 1.5rem);
+  --step-2:  clamp(1.6rem, 1.4rem + 1.2vw, 2rem);
+  --step-3:  clamp(2.1rem, 1.9rem + 1.8vw, 2.8rem);
+  --step-4:  clamp(2.8rem, 2.4rem + 2.6vw, 3.6rem);
+}
+
+/* Apply vintage aesthetic to certain elements */
+.vintage-display,
+.vintage-heading {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  color: var(--vintage-ink);
+  letter-spacing: .01em;
+}
+
+/* Vintage card styling */
+.vintage-card {
+  background: color-mix(in srgb, var(--vintage-bg) 92%, white);
+  border: 1px solid color-mix(in srgb, var(--vintage-accent-2) 18%, transparent);
+  box-shadow: 0 1px 0 rgba(0,0,0,.08);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.vintage-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,.06);
+}
+
+/* Vintage section dividers */
+.vintage-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--vintage-accent-2), transparent);
+  opacity: .6;
+  margin: 2rem 0;
+}
+
+/* Vintage button styling */
+.vintage-btn {
+  border: 1px solid var(--vintage-ink);
+  color: var(--vintage-ink);
+  background: transparent;
+  padding: .55rem .9rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: all .2s ease;
+}
+
+.vintage-btn:hover {
+  background: var(--vintage-ink);
+  color: var(--vintage-bg);
+}
+
+/* Apply Playfair Display consistently to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+  letter-spacing: .01em;
+}
+
+/* Vintage red hover effects */
+.vintage-hover-accent {
+  transition: color .3s ease, transform .2s ease;
+}
+
+.vintage-hover-accent:hover {
+  color: var(--vintage-accent) !important;
+  transform: translateY(-2px);
+}
+
+/* Apply vintage red hover to all section headers and bold text */
+h1, h2, h3, h4, h5, h6,
+.font-bold, .font-semibold,
+strong, b {
+  transition: color .3s ease;
+  cursor: pointer;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover,
+.font-bold:hover, .font-semibold:hover,
+strong:hover, b:hover {
+  color: var(--vintage-accent) !important;
+}
+
+/* Card vintage red hover */
+.vintage-card-hover {
+  transition: all .3s ease;
+}
+
+.vintage-card-hover:hover {
+  border-color: var(--vintage-accent) !important;
+  box-shadow: 0 4px 20px rgba(138, 31, 45, 0.15) !important;
+  transform: translateY(-4px);
+}
 
 :root {
   --background: hsl(210, 40%, 98%);

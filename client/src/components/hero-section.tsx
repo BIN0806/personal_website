@@ -1,12 +1,8 @@
 import { motion } from "framer-motion";
 import { Rocket, FileDown, Sparkles } from "lucide-react";
-import { useQuery } from "@tanstack/react-query";
-import type { Profile } from "@shared/schema";
+import { profile } from "@/data/portfolio-data";
 
 export default function HeroSection() {
-  const { data: profile } = useQuery<Profile>({
-    queryKey: ["/api/profile"],
-  });
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
@@ -34,20 +30,20 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-muted rounded-full text-sm font-medium text-muted-foreground mb-4"
+            className="inline-flex items-center gap-3 px-6 py-3 bg-muted rounded-full text-xl font-semibold text-muted-foreground mb-4"
           >
-            <Sparkles className="w-4 h-4 text-accent" />
-            {profile?.title || "Creative Developer & Designer"}
+            <Sparkles className="w-6 h-6 text-accent" />
+            {profile.title}
           </motion.div>
           
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold text-foreground leading-tight"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold text-foreground leading-tight vintage-hover-accent cursor-pointer"
           >
-            Build Beautiful<br/>
-            <span className="gradient-text">Digital Experiences</span>
+            {profile.name}<br/>
+            {/* <span className="gradient-text">Building Software that impacts the World</span> */}
           </motion.h1>
           
           <motion.p
@@ -56,7 +52,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
           >
-            {profile?.bio || "Crafting beautiful digital experiences that blend innovative design with cutting-edge technology."}
+            {profile.bio}
           </motion.p>
           
           <motion.div
@@ -73,33 +69,16 @@ export default function HeroSection() {
               <Rocket className="w-5 h-5" />
               View My Work
             </button>
-            <button 
+            <a 
+              href="https://drive.google.com/file/d/1WV7TN36ekJC1GxOS1joPznQ2ZvgpD0BX/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-card text-card-foreground border-2 border-border rounded-lg text-lg font-semibold hover:border-primary transition-all flex items-center gap-2 w-full sm:w-auto"
               data-testid="button-download-resume"
             >
               <FileDown className="w-5 h-5" />
               Download Resume
-            </button>
-          </motion.div>
-          
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-wrap items-center justify-center gap-8 pt-12 text-sm text-muted-foreground"
-          >
-            <div className="flex items-center gap-2">
-              <span className="w-5 h-5 text-accent">✓</span>
-              <span>5+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="w-5 h-5 text-accent">✓</span>
-              <span>50+ Projects Delivered</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="w-5 h-5 text-accent">✓</span>
-              <span>Global Clients</span>
-            </div>
+            </a>
           </motion.div>
         </div>
       </div>

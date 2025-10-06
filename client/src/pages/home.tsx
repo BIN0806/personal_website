@@ -2,7 +2,6 @@ import HeroSection from "@/components/hero-section";
 import ServiceCards from "@/components/service-cards";
 import ProcessSection from "@/components/process-section";
 import PortfolioSection from "@/components/portfolio-section";
-import CTASection from "@/components/cta-section";
 import Footer from "@/components/footer";
 import { ChevronDown, Code2 } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -34,40 +33,30 @@ export default function Home() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center pixel-icon">
                 <Code2 className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold text-foreground">Portfolio</span>
+              <span className="text-xl font-bold text-foreground">Billy Nguyen's Catalog</span>
             </button>
             
-            <div className="hidden md:flex items-center gap-8">
+            <div className="flex items-center gap-8">
               <button 
-                onClick={() => scrollToSection("services")}
+                onClick={() => scrollToSection("about")}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-                data-testid="nav-services"
+                data-testid="nav-about"
               >
-                Services
+                About Me
               </button>
               <button 
                 onClick={() => scrollToSection("process")}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                 data-testid="nav-process"
               >
-                Process
+                Workflow
               </button>
               <button 
                 onClick={() => scrollToSection("portfolio")}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                 data-testid="nav-portfolio"
               >
-                Portfolio
-              </button>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <button 
-                onClick={() => scrollToSection("contact")}
-                className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
-                data-testid="button-contact"
-              >
-                Get in Touch
+                Projects
               </button>
             </div>
           </div>
@@ -78,7 +67,7 @@ export default function Home() {
 
       <div className="flex justify-center pb-8">
         <button
-          onClick={() => scrollToSection("services")}
+          onClick={() => scrollToSection("about")}
           className="scroll-indicator flex flex-col items-center text-muted-foreground hover:text-primary transition-colors"
           data-testid="button-scroll-down"
         >
@@ -90,11 +79,6 @@ export default function Home() {
       <ServiceCards />
       <ProcessSection />
       <PortfolioSection />
-      
-      <div id="contact">
-        <CTASection />
-      </div>
-      
       <Footer />
     </div>
   );
