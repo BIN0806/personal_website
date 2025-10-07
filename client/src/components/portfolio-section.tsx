@@ -3,6 +3,9 @@ import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
 import { projects } from "@/data/portfolio-data";
+import kiVideo from "@/demo/ki.mp4";
+import nanoVideo from "@/demo/nano.mp4";
+import translateVideo from "@/demo/translate.mp4";
 
 export default function PortfolioSection() {
   const ref = useRef(null);
@@ -10,6 +13,13 @@ export default function PortfolioSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const featuredProjects = projects.filter(p => p.featured);
+
+  // Map project IDs to their video files
+  const projectVideos: Record<string, string> = {
+    'project-1': kiVideo, // Ki Drone
+    'project-2': nanoVideo, // Nanotechnology
+    'project-3': translateVideo, // Google Meet Translate
+  };
 
   const nextSlide = () => {
     if (featuredProjects) {
@@ -56,11 +66,11 @@ export default function PortfolioSection() {
                     duration: 0.5,
                     ease: [0.32, 0.72, 0, 1]
                   }}
-                  className="grid md:grid-cols-2 gap-8 items-center"
+                  className="flex flex-col gap-6"
                   data-testid={`project-card-${currentIndex}`}
                 >
-                  {/* Left Side - Vertical Card */}
-                  <div className="bg-card border border-border rounded-2xl p-8 md:p-10 flex flex-col justify-between min-h-[600px] group vintage-card-hover">
+                  {/* Top - Project Info Card */}
+                  <div className="bg-card border border-border rounded-2xl p-8 md:p-10 group vintage-card-hover">
                     <div>
                       <h3 className="text-4xl md:text-5xl font-bold text-foreground mb-6" data-testid={`project-name-${currentIndex}`}>
                         {featuredProjects[currentIndex].name}
@@ -115,16 +125,29 @@ export default function PortfolioSection() {
                     )}
                   </div>
                   
-                  {/* Right Side - GIF Placeholder */}
-                  <div className="relative bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 rounded-2xl flex items-center justify-center pixel-icon min-h-[600px] overflow-hidden group border border-border vintage-card-hover">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="relative z-10 flex flex-col items-center gap-4">
-                      <div className="text-8xl font-bold text-foreground/10">
-                        {featuredProjects[currentIndex].name.substring(0, 2).toUpperCase()}
+                  {/* Bottom - Video Demo */}
+                  <div className="relative rounded-2xl h-[400px] md:h-[500px] overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20">
+                    {projectVideos[featuredProjects[currentIndex].id] ? (
+                      <video 
+                        className="w-full h-full object-cover"
+                        autoPlay 
+                        loop 
+                        muted 
+                        playsInline
+                      >
+                        <source src={projectVideos[featuredProjects[currentIndex].id]} type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    ) : (
+                      <div className="flex items-center justify-center h-full pixel-icon">
+                        <div className="relative z-10 flex flex-col items-center gap-4">
+                          <div className="text-8xl font-bold text-foreground/10">
+                            {featuredProjects[currentIndex].name.substring(0, 2).toUpperCase()}
+                          </div>
+                          <p className="text-muted-foreground/50 text-sm font-medium">Project Preview</p>
+                        </div>
                       </div>
-                      <p className="text-muted-foreground/50 text-sm font-medium">Project Preview</p>
-                    </div>
-                    {/* Replace this div with: <img src="your-gif.gif" alt="..." className="w-full h-full object-cover" /> */}
+                    )}
                   </div>
                 </motion.div>
               )}

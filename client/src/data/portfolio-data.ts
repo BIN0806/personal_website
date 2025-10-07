@@ -100,7 +100,7 @@ export const projects: Project[] = [
       {
         id: "project-2",
         name: "Nanotechnology (Research)",
-        description: "Help design aPython based simulation software that displays the modeling of nanoscale biosensors and visualizing electrochemical behavior. I streamlined parameter fitting, and plot generation so researchers can compare theoretical models with experimental results effectively.",
+        description: "Help design a Python based simulation software that displays the modeling of nanoscale biosensors and visualizing electrochemical behavior. I streamlined parameter fitting, and plot generation so researchers can compare theoretical models with experimental results effectively.",
         tags: ["Python", "StreamLit", "HTML/CSS", "NumPy", "Pandas"],
         featured: true
       },
