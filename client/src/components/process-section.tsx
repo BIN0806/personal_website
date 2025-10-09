@@ -24,7 +24,7 @@ export default function ProcessSection() {
             How I Create
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            My process of transforming ideas into successful products through phases of strategic planning and execution.
+            My process of transforming ideas into products through phases of strategic planning and execution.
           </p>
         </motion.div>
 

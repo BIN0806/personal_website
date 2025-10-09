@@ -5,15 +5,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
+/* Cross-browser hidden vertical scrollbar while preserving scroll */
+html, body {
+  overflow-y: auto;           /* keep vertical scroll active */
+  overflow-x: auto;           /* keep horizontal scroll if needed */
+  -ms-overflow-style: none;   /* IE 10+ / Edge Legacy */
+  scrollbar-width: none;      /* Firefox */
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+/* WebKit/Blink (Chrome, Safari, Edge Chromium, Opera) */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;              /* hide scrollbars but allow scroll */
 }
 
 /* ----- Vintage Editorial Design Integration ----- */
