@@ -70,7 +70,7 @@ export default function HeroSection() {
               View My Work
             </button>
             <a 
-              href="https://drive.google.com/file/d/1WV7TN36ekJC1GxOS1joPznQ2ZvgpD0BX/view?usp=sharing"
+              href="/assets/BillyNguyenResume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-card text-card-foreground border-2 border-border rounded-lg text-lg font-semibold hover:border-primary transition-all flex items-center gap-2 w-full sm:w-auto"

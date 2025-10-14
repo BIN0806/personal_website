@@ -111,7 +111,7 @@ export default function PortfolioSection() {
                     </div>
                     
                     {/* Conditional rendering: Proprietary Code or Buttons */}
-                    {(featuredProjects[currentIndex].id === 'project-1' || featuredProjects[currentIndex].id === 'project-2') ? (
+                    {(['project-1', 'project-2', 'project-4'].includes(featuredProjects[currentIndex].id)) ? (
                       <div className="text-muted-foreground italic">
                         <p className="text-base font-medium">Proprietary Code</p>
                       </div>
