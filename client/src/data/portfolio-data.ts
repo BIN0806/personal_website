@@ -111,6 +111,13 @@ export const projects: Project[] = [
         tags: ["HTML/CSS", "JavaScript", "Docker", "LibreTranslateAPI"],
         featured: true
       },
+      {
+        id: "project-4",
+        name: "ABC Comfort Model",
+        description: "Contributed to a web application that allows users to visualize their enviroment with various biological and environmental parameters through a thermoregulartoy physioogical model of the human body.",
+        tags: ["React", "Node.js", "Next.js"],
+        featured: true
+      }
 ];
 
 export const socialLinks: SocialLink[] = [

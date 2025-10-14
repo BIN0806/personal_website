@@ -6,11 +6,13 @@ import { projects } from "@/data/portfolio-data";
 import kiVideo from "@/demo/ki.mp4";
 import nanoVideo from "@/demo/nano.mp4";
 import translateVideo from "@/demo/translate.mp4";
+import comfortVideo from "@/demo/comfort.mp4";
 
 export default function PortfolioSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [direction, setDirection] = useState(0); // -1 for left, +1 for right
 
   const featuredProjects = projects.filter(p => p.featured);
 
@@ -19,26 +21,40 @@ export default function PortfolioSection() {
     'project-1': kiVideo, // Ki Drone
     'project-2': nanoVideo, // Nanotechnology
     'project-3': translateVideo, // Google Meet Translate
+    'project-4': comfortVideo, // Comfort Zone
+  };
+
+  // Map project IDs to their native aspect ratios (width/height)
+  // Embedding explicit Tailwind classes to ensure they are included at build time
+  const projectAspectClass: Record<string, string> = {
+    'project-1': 'aspect-[2026/1338]',      // Ki Drone (~1.51)
+    'project-2': 'aspect-[1260/720]',       // Nanotechnology (16:9 ~1.75)
+    'project-3': 'aspect-[3416/1794]',      // Google Meet Translate (~1.90)
+    'project-4': 'aspect-[3152/1982]',      // Comfort (~1.59)
   };
 
   const nextSlide = () => {
     if (featuredProjects) {
+      setDirection(1);
       setCurrentIndex((prev) => (prev + 1) % featuredProjects.length);
     }
   };
 
   const prevSlide = () => {
     if (featuredProjects) {
+      setDirection(-1);
       setCurrentIndex((prev) => (prev - 1 + featuredProjects.length) % featuredProjects.length);
     }
   };
 
   const goToSlide = (index: number) => {
+    const newDirection = index > currentIndex ? 1 : -1;
+    setDirection(newDirection);
     setCurrentIndex(index);
   };
 
   return (
-    <section className="py-24 lg:py-32 bg-background" ref={ref} id="portfolio">
+    <section className="pt-24 lg:pt-32 pb-0 bg-background" ref={ref} id="portfolio">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -66,9 +82,10 @@ export default function PortfolioSection() {
                     duration: 0.5,
                     ease: [0.32, 0.72, 0, 1]
                   }}
-                  className="flex flex-col gap-6"
+                  className="flex flex-col"
                   data-testid={`project-card-${currentIndex}`}
                 >
+                  <div className="w-full mx-auto space-y-6">
                   {/* Top - Project Info Card */}
                   <div className="bg-card border border-border rounded-2xl p-8 md:p-10 group vintage-card-hover">
                     <div>
@@ -124,12 +141,12 @@ export default function PortfolioSection() {
                       </div>
                     )}
                   </div>
-                  
+
                   {/* Bottom - Video Demo */}
-                  <div className="relative rounded-2xl h-[400px] md:h-[500px] overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20">
+                  <div className={`relative rounded-2xl overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 w-full ${projectAspectClass[featuredProjects[currentIndex].id] || 'aspect-[16/9]'}`}>
                     {projectVideos[featuredProjects[currentIndex].id] ? (
                       <video 
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         autoPlay 
                         loop 
                         muted 
@@ -148,6 +165,7 @@ export default function PortfolioSection() {
                         </div>
                       </div>
                     )}
+                  </div>
                   </div>
                 </motion.div>
               )}
