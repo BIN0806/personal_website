@@ -151,51 +151,58 @@ export default function PortfolioSection() {
                     )}
                   </div>
 
-                  {/* Bottom - Video Demo */}
-                  <div className={`relative rounded-2xl overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 w-full ${projectAspectClass[featuredProjects[currentIndex].id] || 'aspect-[16/9]'}`}>
-                    {projectVideos[featuredProjects[currentIndex].id] ? (
-                      <video 
-                        className="w-full h-full object-contain"
-                        autoPlay 
-                        loop 
-                        muted 
-                        playsInline
-                      >
-                        <source src={projectVideos[featuredProjects[currentIndex].id]} type="video/mp4" />
-                        Your browser does not support the video tag.
-                      </video>
-                    ) : (
-                      <div className="flex items-center justify-center h-full pixel-icon">
-                        <div className="relative z-10 flex flex-col items-center gap-4">
-                          <div className="text-8xl font-bold text-foreground/10">
-                            {featuredProjects[currentIndex].name.substring(0, 2).toUpperCase()}
+                  {/* Bottom - Video Demo with Clickable Side Areas Outside Border */}
+                  <div className="relative flex items-center gap-4 lg:gap-8 group">
+                    {/* Left Clickable Area - Outside video */}
+                    <div
+                      onClick={prevSlide}
+                      className="flex-shrink-0 h-full min-h-[300px] lg:min-h-[400px] w-12 lg:w-20 cursor-pointer flex items-center justify-center"
+                      aria-label="Previous project"
+                    >
+                      <ChevronLeft className="w-12 h-12 lg:w-16 lg:h-16 text-muted-foreground/40 group-hover:text-muted-foreground/60 transition-colors" />
+                    </div>
+
+                    {/* Video Container */}
+                    <div className="flex-1 relative">
+                      <div className={`relative rounded-2xl overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 w-full ${projectAspectClass[featuredProjects[currentIndex].id] || 'aspect-[16/9]'}`}>
+                        {projectVideos[featuredProjects[currentIndex].id] ? (
+                          <video 
+                            className="w-full h-full object-contain"
+                            autoPlay 
+                            loop 
+                            muted 
+                            playsInline
+                          >
+                            <source src={projectVideos[featuredProjects[currentIndex].id]} type="video/mp4" />
+                            Your browser does not support the video tag.
+                          </video>
+                        ) : (
+                          <div className="flex items-center justify-center h-full pixel-icon">
+                            <div className="relative z-10 flex flex-col items-center gap-4">
+                              <div className="text-8xl font-bold text-foreground/10">
+                                {featuredProjects[currentIndex].name.substring(0, 2).toUpperCase()}
+                              </div>
+                              <p className="text-muted-foreground/50 text-sm font-medium">Project Preview</p>
+                            </div>
                           </div>
-                          <p className="text-muted-foreground/50 text-sm font-medium">Project Preview</p>
-                        </div>
+                        )}
                       </div>
-                    )}
+                    </div>
+
+                    {/* Right Clickable Area - Outside video */}
+                    <div
+                      onClick={nextSlide}
+                      className="flex-shrink-0 h-full min-h-[300px] lg:min-h-[400px] w-12 lg:w-20 cursor-pointer flex items-center justify-center"
+                      aria-label="Next project"
+                    >
+                      <ChevronRight className="w-12 h-12 lg:w-16 lg:h-16 text-muted-foreground/40 group-hover:text-muted-foreground/60 transition-colors" />
+                    </div>
                   </div>
                   </div>
                 </motion.div>
               )}
             </AnimatePresence>
           </div>
-
-          {/* Navigation Buttons */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-16 w-12 h-12 bg-card border-2 border-border rounded-full flex items-center justify-center hover:bg-primary hover:border-primary hover:text-primary-foreground transition-all shadow-lg"
-            aria-label="Previous project"
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-          <button
-            onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-16 w-12 h-12 bg-card border-2 border-border rounded-full flex items-center justify-center hover:bg-primary hover:border-primary hover:text-primary-foreground transition-all shadow-lg"
-            aria-label="Next project"
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
 
           {/* Dot Indicators */}
           <div className="flex justify-center gap-2 mt-8">
