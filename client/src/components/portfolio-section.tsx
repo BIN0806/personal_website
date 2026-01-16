@@ -7,6 +7,7 @@ import kiVideo from "@/demo/ki.mp4";
 import nanoVideo from "@/demo/nano.mp4";
 import translateVideo from "@/demo/translate.mp4";
 import comfortVideo from "@/demo/comfort.mp4";
+import planAVideo from "@/demo/PlanADemo.mp4";
 
 export default function PortfolioSection() {
   const ref = useRef(null);
@@ -18,19 +19,27 @@ export default function PortfolioSection() {
 
   // Map project IDs to their video files
   const projectVideos: Record<string, string> = {
-    'project-1': kiVideo, // Ki Drone
-    'project-2': nanoVideo, // Nanotechnology
-    'project-3': translateVideo, // Google Meet Translate
-    'project-4': comfortVideo, // Comfort Zone
+    'project-1': planAVideo, // Plan A
+    'project-2': kiVideo, // Ki Drone
+    'project-3': nanoVideo, // Nanotechnology
+    'project-4': translateVideo, // Google Meet Translate
+    'project-5': comfortVideo, // Comfort Zone
   };
 
   // Map project IDs to their native aspect ratios (width/height)
   // Embedding explicit Tailwind classes to ensure they are included at build time
   const projectAspectClass: Record<string, string> = {
-    'project-1': 'aspect-[2026/1338]',      // Ki Drone (~1.51)
-    'project-2': 'aspect-[1260/720]',       // Nanotechnology (16:9 ~1.75)
-    'project-3': 'aspect-[3416/1794]',      // Google Meet Translate (~1.90)
-    'project-4': 'aspect-[3152/1982]',      // Comfort (~1.59)
+    'project-1': 'aspect-[16/9]',           // Plan A (default 16:9)
+    'project-2': 'aspect-[2026/1338]',      // Ki Drone (~1.51)
+    'project-3': 'aspect-[1260/720]',       // Nanotechnology (16:9 ~1.75)
+    'project-4': 'aspect-[3416/1794]',      // Google Meet Translate (~1.90)
+    'project-5': 'aspect-[3152/1982]',      // Comfort (~1.59)
+  };
+
+  // Map project IDs to their GitHub repository URLs
+  const projectGitHubLinks: Record<string, string> = {
+    'project-1': 'https://github.com/BIN0806/Type-A-Itinerary',
+    'project-4': 'https://github.com/BIN0806/LiveVideoTranslation',
   };
 
   const nextSlide = () => {
@@ -111,11 +120,7 @@ export default function PortfolioSection() {
                     </div>
                     
                     {/* Conditional rendering: Proprietary Code or Buttons */}
-                    {(['project-1', 'project-2', 'project-4'].includes(featuredProjects[currentIndex].id)) ? (
-                      <div className="text-muted-foreground italic">
-                        <p className="text-base font-medium">Proprietary Code</p>
-                      </div>
-                    ) : (
+                    {projectGitHubLinks[featuredProjects[currentIndex].id] ? (
                       <div className="flex items-center gap-4">
                         {/* View Project Button - Commented out for now
                         <button 
@@ -127,9 +132,9 @@ export default function PortfolioSection() {
                         </button>
                         */}
                         
-                        {/* GitHub Link - Add your repo URL here */}
+                        {/* GitHub Link */}
                         <a 
-                          href="https://github.com/BIN0806/LiveVideoTranslation"
+                          href={projectGitHubLinks[featuredProjects[currentIndex].id]}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center gap-2 text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
@@ -138,6 +143,10 @@ export default function PortfolioSection() {
                           <Github className="w-5 h-5" />
                           Code
                         </a>
+                      </div>
+                    ) : (
+                      <div className="text-muted-foreground italic">
+                        <p className="text-base font-medium">Proprietary Code</p>
                       </div>
                     )}
                   </div>

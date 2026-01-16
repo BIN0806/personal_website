@@ -92,27 +92,34 @@ export const processSteps: ProcessStep[] = [
 export const projects: Project[] = [
     {
         id: "project-1",
+        name: "Plan A",
+        description: "Convert unstructured visual inspiration (social media video/images) of travel destinations into a structured, optimized itinerary with navigation intergrated with Google Maps.",
+        tags: ["Python", "FastAPI", "TypeScript", "React Native", "PostgreSQL", "Redis", "Google Map API", "OpenAI API"],
+        featured: true
+      },
+    {
+        id: "project-2",
         name: "Ki Drone (Internship)",
         description: "Engineered a cross-platform desktop application for post-wildfire reforestation. I disected shapefiles and other Geographic Information System (GIS) layers, compute flight corridors, spacing, and seed-drop points with custom geospatial algorithms, and render everything on a map for field teams can run offline.",
             tags: [ "Python","Node.JS", "JavaScript", "HTML/CSS",  "Flask", "Electron", "ArcGIS", "GeoPandas", "Numpy", "PyProj", "Shapely"],
         featured: true
         },
       {
-        id: "project-2",
+        id: "project-3",
         name: "Nanotechnology (Research)",
         description: "Help design a Python based simulation software that displays the modeling of nanoscale biosensors and visualizing electrochemical behavior. I streamlined parameter fitting, and plot generation so researchers can compare theoretical models with experimental results effectively.",
         tags: ["Python", "StreamLit", "HTML/CSS", "NumPy", "Pandas"],
         featured: true
       },
       {
-        id: "project-3",
+        id: "project-4",
         name: "Google Meet Translate",
         description: "Developed a a lightweight browser extension that captures live captions from Google Meet and translates them in real time using a local server API from libretranslate. Smooth subtitle rendering, and a simple controls panel so users can switch languages.",
         tags: ["HTML/CSS", "JavaScript", "Docker", "LibreTranslateAPI"],
         featured: true
       },
       {
-        id: "project-4",
+        id: "project-5",
         name: "ABC Comfort Model",
         description: "Contributed to a web application that allows users to visualize their enviroment with various biological and environmental parameters through a thermoregulartoy physioogical model of the human body.",
         tags: ["React", "Node.js", "Next.js"],
