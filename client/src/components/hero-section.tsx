@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Rocket, FileDown, Sparkles } from "lucide-react";
+import { Rocket, Sparkles } from "lucide-react";
 import { profile } from "@/data/portfolio-data";
 
 export default function HeroSection() {
@@ -69,16 +69,6 @@ export default function HeroSection() {
               <Rocket className="w-5 h-5" />
               View My Work
             </button>
-            {/* <a 
-              href="/assets/BillyNguyenResume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 bg-card text-card-foreground border-2 border-border rounded-lg text-lg font-semibold hover:border-primary transition-all flex items-center gap-2 w-full sm:w-auto"
-              data-testid="button-download-resume"
-            >
-              <FileDown className="w-5 h-5" />
-              Download Resume
-            </a> */}
           </motion.div>
         </div>
       </div>
