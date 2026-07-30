@@ -30,7 +30,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-16 pb-16" id="about">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-16 pb-8" id="about">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
           className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-lg pixel-icon"
@@ -49,7 +49,7 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 relative z-10 w-full">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-24 lg:pt-32 pb-10 lg:pb-12 relative z-10 w-full">
         <div className="max-w-3xl mx-auto w-full flex flex-col items-center text-center space-y-10">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}

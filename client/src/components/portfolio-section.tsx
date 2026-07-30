@@ -83,7 +83,7 @@ export default function PortfolioSection() {
   }, [isDemoOpen, currentIndex]);
 
   return (
-    <section className="pt-24 lg:pt-32 pb-24 lg:pb-32 bg-background" ref={ref} id="portfolio">
+    <section className="pt-12 lg:pt-16 pb-24 lg:pb-32 bg-background" ref={ref} id="portfolio">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <CollapsibleSection
           id="featured-projects"
