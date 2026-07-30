@@ -124,6 +124,14 @@ strong:hover, b:hover {
   transform: translateY(-4px);
 }
 
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--vintage-accent) !important;
+}
+
 :root {
   --background: hsl(210, 40%, 98%);
   --foreground: hsl(222, 47%, 11%);
@@ -314,6 +322,132 @@ strong:hover, b:hover {
 
   .status-completed {
     @apply bg-secondary/10 text-secondary;
+  }
+
+  .activity-cell {
+    border-radius: 3px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .activity-cell-interactive {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+
+  .activity-cell-interactive:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--vintage-accent) 35%, transparent);
+  }
+
+  .activity-tooltip {
+    position: fixed;
+    z-index: 100;
+    pointer-events: none;
+    transform: translate(-50%, -100%);
+    background: var(--vintage-ink);
+    color: var(--vintage-bg);
+    padding: 0.45rem 0.65rem;
+    border-radius: 0.375rem;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  }
+
+  .activity-level-0 {
+    background: color-mix(in srgb, var(--vintage-accent-2) 10%, var(--vintage-bg));
+  }
+
+  .activity-level-1 {
+    background: color-mix(in srgb, var(--vintage-accent) 22%, var(--vintage-bg));
+  }
+
+  .activity-level-2 {
+    background: color-mix(in srgb, var(--vintage-accent) 45%, var(--vintage-bg));
+  }
+
+  .activity-level-3 {
+    background: color-mix(in srgb, var(--vintage-accent) 68%, var(--vintage-bg));
+  }
+
+  .activity-level-4 {
+    background: var(--vintage-accent);
+  }
+
+  .activity-future {
+    background: color-mix(in srgb, var(--vintage-accent-2) 6%, var(--vintage-bg));
+    opacity: 0.45;
+  }
+
+  .activity-outside-year {
+    background: transparent;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .activity-calendar {
+    --activity-cell-gap: 2px;
+    width: 100%;
+    max-width: 36rem;
+    margin-inline: auto;
+  }
+
+  .activity-months {
+    display: grid;
+    gap: var(--activity-cell-gap);
+    margin-bottom: 0.35rem;
+    width: 100%;
+  }
+
+  .activity-day-labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 1px;
+    min-height: 100%;
+  }
+
+  .activity-day-label {
+    font-size: 0.625rem;
+    line-height: 1;
+    font-weight: 500;
+    color: var(--muted-foreground);
+  }
+
+  .activity-month-label {
+    font-size: 0.625rem;
+    line-height: 1;
+    font-weight: 500;
+    color: var(--muted-foreground);
+  }
+
+  .activity-grid {
+    display: grid;
+    gap: var(--activity-cell-gap);
+    grid-auto-flow: column;
+    width: 100%;
+    min-height: 7rem;
+  }
+
+  .activity-grid .activity-cell {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .activity-calendar-embedded {
+    max-width: 40rem;
+    --activity-cell-gap: 3px;
+  }
+
+  .activity-calendar-embedded .activity-day-label,
+  .activity-calendar-embedded .activity-month-label {
+    font-size: 0.7rem;
+  }
+
+  .activity-calendar-embedded .activity-grid {
+    min-height: 8.5rem;
   }
 }
 

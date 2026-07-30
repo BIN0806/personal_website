@@ -40,8 +40,63 @@ export const socialLinkSchema = z.object({
   icon: z.string(),
 });
 
+export const resumeEntrySchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  subtitle: z.string().optional(),
+  date: z.string().optional(),
+  description: z.string().optional(),
+  highlights: z.array(z.string()).optional(),
+  tags: z.array(z.string()).optional(),
+  link: z.string().optional(),
+});
+
+export const experienceSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  company: z.string(),
+  date: z.string(),
+  logoUrl: z.string().optional(),
+  domain: z.string().optional(),
+});
+
+export const educationSchema = z.object({
+  id: z.string(),
+  school: z.string(),
+  degree: z.string(),
+  date: z.string(),
+  gpa: z.string().optional(),
+  activities: z.array(z.string()).optional(),
+  logoUrl: z.string().optional(),
+  domain: z.string().optional(),
+});
+
+export const courseSchema = z.object({
+  code: z.string(),
+  name: z.string(),
+});
+
+export const otherProjectSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  tags: z.array(z.string()),
+  description: z.string(),
+});
+
+export const otherProjectCategorySchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  projects: z.array(otherProjectSchema),
+});
+
 export type Profile = z.infer<typeof profileSchema>;
 export type Skill = z.infer<typeof skillSchema>;
 export type ProcessStep = z.infer<typeof processStepSchema>;
 export type Project = z.infer<typeof projectSchema>;
 export type SocialLink = z.infer<typeof socialLinkSchema>;
+export type ResumeEntry = z.infer<typeof resumeEntrySchema>;
+export type Experience = z.infer<typeof experienceSchema>;
+export type Education = z.infer<typeof educationSchema>;
+export type Course = z.infer<typeof courseSchema>;
+export type OtherProject = z.infer<typeof otherProjectSchema>;
+export type OtherProjectCategory = z.infer<typeof otherProjectCategorySchema>;

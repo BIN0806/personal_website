@@ -1,8 +1,13 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "framer-motion";
-import { useRef, useState } from "react";
-import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
-import { projects } from "@/data/portfolio-data";
+import { useEffect, useRef, useState } from "react";
+import { Github, ChevronLeft, ChevronRight, ChevronDown } from "lucide-react";
+import { projects, selfLearning } from "@/data/portfolio-data";
+import OtherProjectsSection from "@/components/other-projects-section";
+import CollapsibleSection from "@/components/collapsible-section";
+import ResumeSection from "@/components/resume-section";
+import ExtraSection from "@/components/extra-section";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import kiVideo from "@/demo/ki.mp4";
 import nanoVideo from "@/demo/nano.mp4";
 import translateVideo from "@/demo/translate.mp4";
@@ -13,9 +18,12 @@ export default function PortfolioSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(0); // -1 for left, +1 for right
+  const [direction, setDirection] = useState(0);
+  const [isDemoOpen, setIsDemoOpen] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   const featuredProjects = projects.filter(p => p.featured);
+  const currentProject = featuredProjects[currentIndex];
 
   // Map project IDs to their video files
   const projectVideos: Record<string, string> = {
@@ -25,6 +33,8 @@ export default function PortfolioSection() {
     'project-4': translateVideo, // Google Meet Translate
     'project-5': comfortVideo, // Comfort Zone
   };
+
+  const currentProjectHasVideo = Boolean(currentProject && projectVideos[currentProject.id]);
 
   // Map project IDs to their native aspect ratios (width/height)
   // Embedding explicit Tailwind classes to ensure they are included at build time
@@ -62,21 +72,28 @@ export default function PortfolioSection() {
     setCurrentIndex(index);
   };
 
+  useEffect(() => {
+    if (!videoRef.current) return;
+
+    if (isDemoOpen) {
+      videoRef.current.play().catch(() => {});
+    } else {
+      videoRef.current.pause();
+    }
+  }, [isDemoOpen, currentIndex]);
+
   return (
-    <section className="pt-24 lg:pt-32 pb-0 bg-background" ref={ref} id="portfolio">
+    <section className="pt-24 lg:pt-32 pb-24 lg:pb-32 bg-background" ref={ref} id="portfolio">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-20"
+        <CollapsibleSection
+          id="featured-projects"
+          title="Featured Personal and Internship Projects"
+          isInView={isInView}
+          testId="featured-projects-toggle"
+          className="mt-0"
+          triggerClassName="mb-12"
+          contentClassName="pt-2"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Featured Personal and Internship Projects
-          </h2>
-
-        </motion.div>
-
         <div className="relative max-w-7xl mx-auto">
           {/* Carousel Container */}
           <div className="relative">
@@ -95,109 +112,120 @@ export default function PortfolioSection() {
                   data-testid={`project-card-${currentIndex}`}
                 >
                   <div className="w-full mx-auto space-y-6">
-                  {/* Top - Project Info Card */}
-                  <div className="bg-card border border-border rounded-2xl p-8 md:p-10 group vintage-card-hover">
-                    <div>
-                      <h3 className="text-4xl md:text-5xl font-bold text-foreground mb-6" data-testid={`project-name-${currentIndex}`}>
-                        {featuredProjects[currentIndex].name}
-                      </h3>
-                      
-                      <p className="text-muted-foreground mb-8 text-lg leading-relaxed" data-testid={`project-description-${currentIndex}`}>
-                        {featuredProjects[currentIndex].description}
-                      </p>
-                      
-                      <div className="flex flex-wrap gap-2 mb-8">
-                        {featuredProjects[currentIndex].tags.map((tag, tagIndex) => (
-                          <span 
-                            key={tagIndex} 
-                            className="px-3 py-1.5 bg-muted rounded-lg text-sm font-medium text-muted-foreground"
-                            data-testid={`project-tag-${currentIndex}-${tagIndex}`}
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    
-                    {/* Conditional rendering: Proprietary Code or Buttons */}
-                    {projectGitHubLinks[featuredProjects[currentIndex].id] ? (
-                      <div className="flex items-center gap-4">
-                        {/* View Project Button - Commented out for now
-                        <button 
-                          className="flex items-center gap-2 text-base font-medium text-primary hover:text-primary/80 transition-colors"
-                          data-testid={`button-view-project-${currentIndex}`}
-                        >
-                          <ExternalLink className="w-5 h-5" />
-                          View Project
-                        </button>
-                        */}
+                  {/* Project Info Card with navigation arrows */}
+                  <div className="relative flex items-center gap-3 lg:gap-6 group py-1">
+                    <button
+                      type="button"
+                      onClick={prevSlide}
+                      className="flex-shrink-0 cursor-pointer flex items-center justify-center text-muted-foreground/40 hover:text-muted-foreground transition-colors"
+                      aria-label="Previous project"
+                      data-testid={`button-prev-project-${currentIndex}`}
+                    >
+                      <ChevronLeft className="w-10 h-10 lg:w-12 lg:h-12" />
+                    </button>
+
+                    <div className="flex-1 min-w-0 bg-card border border-border rounded-2xl p-8 md:p-10 vintage-card-hover">
+                      <div>
+                        <h3 className="text-4xl md:text-5xl font-bold text-foreground mb-6" data-testid={`project-name-${currentIndex}`}>
+                          {featuredProjects[currentIndex].name}
+                        </h3>
                         
-                        {/* GitHub Link */}
-                        <a 
-                          href={projectGitHubLinks[featuredProjects[currentIndex].id]}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
-                          data-testid={`button-github-${currentIndex}`}
-                        >
-                          <Github className="w-5 h-5" />
-                          Code
-                        </a>
+                        <p className="text-muted-foreground mb-8 text-lg leading-relaxed" data-testid={`project-description-${currentIndex}`}>
+                          {featuredProjects[currentIndex].description}
+                        </p>
+                        
+                        <div className="flex flex-wrap gap-2 mb-8">
+                          {featuredProjects[currentIndex].tags.map((tag, tagIndex) => (
+                            <span 
+                              key={tagIndex} 
+                              className="px-3 py-1.5 bg-muted rounded-lg text-sm font-medium text-muted-foreground"
+                              data-testid={`project-tag-${currentIndex}-${tagIndex}`}
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
                       </div>
-                    ) : (
-                      <div className="text-muted-foreground italic">
-                        <p className="text-base font-medium">Proprietary Code</p>
-                      </div>
-                    )}
+                      
+                      {projectGitHubLinks[featuredProjects[currentIndex].id] ? (
+                        <div className="flex items-center gap-4">
+                          <a 
+                            href={projectGitHubLinks[featuredProjects[currentIndex].id]}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
+                            data-testid={`button-github-${currentIndex}`}
+                          >
+                            <Github className="w-5 h-5" />
+                            Code
+                          </a>
+                        </div>
+                      ) : (
+                        <div className="text-muted-foreground italic">
+                          <p className="text-base font-medium">Proprietary Code</p>
+                        </div>
+                      )}
+                    </div>
+
+                    <button
+                      type="button"
+                      onClick={nextSlide}
+                      className="flex-shrink-0 cursor-pointer flex items-center justify-center text-muted-foreground/40 hover:text-muted-foreground transition-colors"
+                      aria-label="Next project"
+                      data-testid={`button-next-project-${currentIndex}`}
+                    >
+                      <ChevronRight className="w-10 h-10 lg:w-12 lg:h-12" />
+                    </button>
                   </div>
 
-                  {/* Bottom - Video Demo with Clickable Side Areas Outside Border */}
-                  <div className="relative flex items-center gap-4 lg:gap-8 group">
-                    {/* Left Clickable Area - Outside video */}
-                    <div
-                      onClick={prevSlide}
-                      className="flex-shrink-0 h-full min-h-[300px] lg:min-h-[400px] w-12 lg:w-20 cursor-pointer flex items-center justify-center"
-                      aria-label="Previous project"
+                  {currentProjectHasVideo && (
+                    <Collapsible
+                      open={isDemoOpen}
+                      onOpenChange={setIsDemoOpen}
                     >
-                      <ChevronLeft className="w-12 h-12 lg:w-16 lg:h-16 text-muted-foreground/40 group-hover:text-muted-foreground/60 transition-colors" />
-                    </div>
+                      <CollapsibleTrigger
+                        className="w-full flex items-center justify-between px-4 py-3 bg-muted/50 hover:bg-muted border border-border rounded-xl text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                        data-testid={`button-toggle-demo-${currentIndex}`}
+                      >
+                        <span>Video Demo</span>
+                        <ChevronDown
+                          className={`w-4 h-4 transition-transform duration-200 ${
+                            isDemoOpen ? "rotate-180" : ""
+                          }`}
+                        />
+                      </CollapsibleTrigger>
 
-                    {/* Video Container */}
-                    <div className="flex-1 relative">
-                      <div className={`relative rounded-2xl overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 w-full ${projectAspectClass[featuredProjects[currentIndex].id] || 'aspect-[16/9]'}`}>
-                        {projectVideos[featuredProjects[currentIndex].id] ? (
-                          <video 
+                      <CollapsibleContent className="pt-4 overflow-hidden data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
+                        <div className={`relative rounded-2xl overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 w-full ${projectAspectClass[currentProject.id] || 'aspect-[16/9]'}`}>
+                          <video
+                            key={currentProject.id}
+                            ref={videoRef}
                             className="w-full h-full object-contain"
-                            autoPlay 
-                            loop 
-                            muted 
+                            autoPlay={isDemoOpen}
+                            loop
+                            muted
                             playsInline
                           >
-                            <source src={projectVideos[featuredProjects[currentIndex].id]} type="video/mp4" />
+                            <source src={projectVideos[currentProject.id]} type="video/mp4" />
                             Your browser does not support the video tag.
                           </video>
-                        ) : (
-                          <div className="flex items-center justify-center h-full pixel-icon">
-                            <div className="relative z-10 flex flex-col items-center gap-4">
-                              <div className="text-8xl font-bold text-foreground/10">
-                                {featuredProjects[currentIndex].name.substring(0, 2).toUpperCase()}
-                              </div>
-                              <p className="text-muted-foreground/50 text-sm font-medium">Project Preview</p>
-                            </div>
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
+                  )}
+
+                  {currentProject && !projectVideos[currentProject.id] && (
+                    <div className="relative rounded-2xl overflow-hidden border border-border vintage-card-hover bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 w-full aspect-[16/9]">
+                      <div className="flex items-center justify-center h-full pixel-icon">
+                        <div className="relative z-10 flex flex-col items-center gap-4">
+                          <div className="text-8xl font-bold text-foreground/10">
+                            {currentProject.name.substring(0, 2).toUpperCase()}
                           </div>
-                        )}
+                          <p className="text-muted-foreground/50 text-sm font-medium">Project Preview</p>
+                        </div>
                       </div>
                     </div>
-
-                    {/* Right Clickable Area - Outside video */}
-                    <div
-                      onClick={nextSlide}
-                      className="flex-shrink-0 h-full min-h-[300px] lg:min-h-[400px] w-12 lg:w-20 cursor-pointer flex items-center justify-center"
-                      aria-label="Next project"
-                    >
-                      <ChevronRight className="w-12 h-12 lg:w-16 lg:h-16 text-muted-foreground/40 group-hover:text-muted-foreground/60 transition-colors" />
-                    </div>
-                  </div>
+                  )}
                   </div>
                 </motion.div>
               )}
@@ -220,6 +248,20 @@ export default function PortfolioSection() {
             ))}
           </div>
         </div>
+        </CollapsibleSection>
+
+        <OtherProjectsSection isInView={isInView} delay={0.2} />
+
+        <ResumeSection
+          title="Self-Learning"
+          sectionId="self-learning"
+          entries={selfLearning}
+          isInView={isInView}
+          delay={0.3}
+          testIdPrefix="self-learning"
+        />
+
+        <ExtraSection />
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
+import { getGitHubActivity, refreshGitHubActivity } from "./github-activity-service";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/profile", async (_req, res) => {
@@ -45,6 +46,24 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(socialLinks);
     } catch (error) {
       res.status(500).json({ message: "Failed to fetch social links" });
+    }
+  });
+
+  app.get("/api/github/activity", async (_req, res) => {
+    try {
+      const activity = await getGitHubActivity();
+      res.json(activity);
+    } catch (error) {
+      res.status(500).json({ message: "Failed to fetch GitHub activity" });
+    }
+  });
+
+  app.post("/api/github/activity/refresh", async (_req, res) => {
+    try {
+      const { data, wasRefreshed } = await refreshGitHubActivity();
+      res.status(wasRefreshed ? 200 : 429).json(data);
+    } catch (error) {
+      res.status(500).json({ message: "Failed to refresh GitHub activity" });
     }
   });
 

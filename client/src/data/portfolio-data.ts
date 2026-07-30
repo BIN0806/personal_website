@@ -1,11 +1,113 @@
-import type { Profile, Skill, ProcessStep, Project, SocialLink } from "@shared/schema";
+import type { Profile, Skill, ProcessStep, Project, SocialLink, ResumeEntry, Experience, Education, Course } from "@shared/schema";
 
 export const profile: Profile = {
   name: "Billy Nguyen",
   title: "Software Engineer",
-  bio: "Possibility is the uncertainity of what we seek to understand.",
+  bio: "",
   email: "bnvinh0808@gmail.com",
 };
+
+export const aboutMe = {
+  paragraphs: [
+    `Growing up in the agricultural heart of the Central Valley, my early environment was defined by farming rather than technology. My journey into computer science began unexpectedly in high school. I wanted to help small, immigrant-owned businesses in my community generate much-needed publicity, so I taught myself how to build websites. What started as a simple desire to support local entrepreneurs, along with my interests in GPUs for gaming, all together snowballed into a fascination with modern technology.`,
+
+    `Before college even began, I fell completely down the programming rabbit hole. I found myself drawn away from basic web development and pulled toward highly complex, ambiguous projects that required rigorous, creative problem-solving. This intense drive ultimately led me to pursue my degree in Computer Science at UC Berkeley, where I could fully explore the theoretical and practical foundations of computation.`,
+
+    `Today, my primary passion lies directly at the intersection of mathematics and systems, specifically within the realm of machine learning. I am captivated by the unique challenge of designing robust machine learning systems, maintaining a strong technical focus on distributed inference optimization, high-performance software systems, and scalable solutions for the future of global technical infrastructure.`,
+
+    `I am driven by the same curiosity that originally sparked my first high school web project. I thrive in dynamic environments where math and efficient code converge to solve intricate challenges, so if there's an oppurtunity that you'd like me to hear about, please feel free to reach out!.`,
+  ],
+  images: [
+    "/assets/about-me/IMG_8270.JPG",
+    "/assets/about-me/IMG_7306.JPG",
+    "/assets/about-me/1c523ddd-0621-4e5d-932d-2a188670fb67.JPG",
+  ],
+};
+
+// Synced from https://www.linkedin.com/in/billyvn/
+export const experiences: Experience[] = [
+  {
+    id: "exp-1",
+    title: "AI/ML Engineer Intern",
+    company: "Wells Fargo",
+    date: "May 2026 – Present",
+    logoUrl: "/assets/logos/wells-fargo.png",
+    domain: "wellsfargo.com",
+  },
+  {
+    id: "exp-2",
+    title: "Web Developer",
+    company: "UC Berkeley, Rausser College of Natural Resources",
+    date: "Aug 2025 – Dec 2025",
+    logoUrl: "/assets/logos/berkeley.png",
+    domain: "berkeley.edu",
+  },
+  {
+    id: "exp-3",
+    title: "Full Stack Developer Intern",
+    company: "Ki",
+    date: "May 2025 – Sep 2025",
+    logoUrl: "/assets/logos/ki.png",
+    domain: "kidrone.org",
+  },
+  {
+    id: "exp-4",
+    title: "Undergraduate Research Assistant",
+    company: "University of California, Berkeley",
+    date: "Jan 2024 – May 2024",
+    logoUrl: "/assets/logos/berkeley.png",
+    domain: "berkeley.edu",
+  },
+  {
+    id: "exp-5",
+    title: "Undergraduate Student Researcher",
+    company: "UC Berkeley College of Computing, Data Science, and Society",
+    date: "Jan 2024 – May 2024",
+    logoUrl: "/assets/logos/berkeley.png",
+    domain: "berkeley.edu",
+  },
+];
+
+// Synced from https://www.linkedin.com/in/billyvn/
+export const education: Education[] = [
+  {
+    id: "edu-1",
+    school: "University of California, Berkeley",
+    degree: "B.A. Computer Science & Statistics",
+    date: "2024–2028",
+    gpa: "3.9/4.0",
+    activities: [
+      "Computer Science Undergraduate Association — Previous External",
+      "CS Scholars - 61A & 61B", 
+      "Poker @ Berkeley",
+
+      // "Traders at Berkeley — Head of Game Development, 2026 Berkeley Trading Competition",
+      // "Student Association for Applied Statistics — Project Manager",
+    ],
+    logoUrl: "/assets/logos/berkeley.png",
+    domain: "berkeley.edu",
+  },
+];
+
+export const relevantCoursework: Course[] = [
+  { code: "CS 161", name: "Computer Security" },
+  { code: "CS 162", name: "Operating Systems" },
+  { code: "CS 168", name: "Internet Architecture" },
+  { code: "CS 152", name: "Computer Architecture & Engineering" },
+  { code: "CS 170", name: "Efficient Algorithms" },
+  { code: "CS 182", name: "Deep Neural Networks" },
+  { code: "EECS 183", name: "Natural Language Processing" },
+  { code: "EECS 126", name: "Probability & Random Processes" },
+  { code: "EECS 127", name: "Optimization Models" },
+  { code: "CS 70", name: "Discrete Math & Probability" },
+  { code: "CS 61C", name: "Machine Structures" },
+  { code: "CS 61B", name: "Data Structures" },
+  { code: "CS 61A", name: "Computer Programming" },
+  { code: "Math 56", name: "Linear Algebra" },
+  { code: "Math 53", name: "Multivariable Calculus" },
+  { code: "Data 100", name: "Data Analysis & Visualization"},
+  { code: "Data 8", name: "Data Science Foundations" },
+];
 
 export const skills: Skill[] = [
   {
@@ -15,7 +117,6 @@ export const skills: Skill[] = [
     subtitle: "My Journey",
     icon: "book",
     features: [
-      "Computer Science Student",
       "Continuous Learner",
       "Tech Enthusiast",
       "Problem Solver",
@@ -24,24 +125,6 @@ export const skills: Skill[] = [
       "Gamer",
       "Gym Rat",
       "Tennis Player"
-    ]
-  },
-  {
-    id: "technical",
-    category: "Technical",
-    title: "Technical Skills",
-    subtitle: "What I Know",
-    icon: "code",
-    features: [
-      "Python",
-      "Java & C",
-      "React",
-      "TypeScript & JavaScript & Node.js",
-      "SQL",
-      "NumPy & Pandas",
-      "Matplotlib &Seaborn",
-      "HTMLS/CSS",
-      "Version Control (Git)",
     ]
   },
   {
@@ -127,9 +210,12 @@ export const projects: Project[] = [
       }
 ];
 
+export const selfLearning: ResumeEntry[] = [];
+
 export const socialLinks: SocialLink[] = [
   { platform: "GitHub", url: "https://github.com/BIN0806", icon: "github" },
   { platform: "LinkedIn", url: "https://www.linkedin.com/in/billyvn/", icon: "linkedin" },
+  { platform: "Twitter", url: "https://x.com/02H3ro", icon: "twitter" },
   { platform: "Email", url: "mailto:bnvinh0808@gmail.com", icon: "mail" }
 ];
 
