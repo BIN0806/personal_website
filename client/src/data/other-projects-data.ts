@@ -60,11 +60,39 @@ export const otherProjectCategories: OtherProjectCategory[] = [
     name: "Low-Level & Systems Design",
     projects: [
       {
-        id: "c-memory-management",
-        title: "C Memory Management and String Manipulation",
+        id: "shell",
+        title: "Shell",
         tags: ["C"],
         description:
-          "A foundational C programming project focused on memory management, pointers, strings, and data manipulation.",
+          "Building a command-line shell interface with support for executing programs, path resolution, process control, and input/output redirection.",
+      },
+      {
+        id: "http-server",
+        title: "HTTP",
+        tags: ["C", "Rust"],
+        description:
+          "Implementing a multi-threaded HTTP web server capable of handling concurrent client requests and serving files over network sockets.",
+      },
+      {
+        id: "malloc",
+        title: "Memory (Malloc)",
+        tags: ["C"],
+        description:
+          "Designing and implementing a custom dynamic memory allocator to efficiently manage heap allocations, deallocations, and block splitting/coalescing.",
+      },
+      {
+        id: "rpc-map-reduce",
+        title: "RPC & Map Reduce",
+        tags: ["C", "Rust"],
+        description:
+          "Implementing Remote Procedure Calls to establish reliable network communication, and using them to build a distributed data processing framework capable of executing map and reduce tasks across multiple worker nodes.",
+      },
+      {
+        id: "raft",
+        title: "Raft",
+        tags: ["C", "Rust"],
+        description:
+          "Implementing the Raft distributed consensus algorithm to manage a replicated log, handling leader election and state machine replication to build a highly available and fault-tolerant system.",
       },
       {
         id: "buffer-overflows",
