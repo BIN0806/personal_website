@@ -40,8 +40,10 @@ export default function CollapsibleSection({
           className={`group w-full flex items-center justify-center gap-3 mb-10 ${triggerClassName}`}
           data-testid={testId ?? `${id}-toggle`}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">{title}</h2>
-          <ChevronDown className="w-6 h-6 text-muted-foreground transition-transform duration-200 group-data-[state=open]:rotate-180" />
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground transition-colors group-data-[state=open]:text-[var(--vintage-accent)]">
+            {title}
+          </h2>
+          <ChevronDown className="w-6 h-6 text-muted-foreground transition-all duration-200 group-data-[state=open]:rotate-180 group-data-[state=open]:text-[var(--vintage-accent)]" />
         </CollapsibleTrigger>
 
         <CollapsibleContent

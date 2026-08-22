@@ -13,7 +13,7 @@ function ProjectEntry({ project }: { project: OtherProject }) {
   return (
     <div className="py-5 first:pt-0 last:pb-0 border-b border-border last:border-b-0">
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-2">
-        <h4 className="text-lg font-bold text-foreground">{project.title}</h4>
+        <h4 className="text-base md:text-lg font-semibold text-foreground">{project.title}</h4>
         <p className="text-sm text-muted-foreground shrink-0 sm:text-right">{project.tags.join(", ")}</p>
       </div>
       <p className="text-muted-foreground leading-relaxed">{project.description}</p>
@@ -35,17 +35,17 @@ export default function OtherProjectsSection({ isInView, delay = 0.2 }: OtherPro
           {otherProjectCategories.map((category) => (
             <Collapsible key={category.id} defaultOpen={false}>
               <CollapsibleTrigger
-                className="group w-full flex items-center justify-between gap-4 px-4 py-3 rounded-xl hover:bg-muted/50 transition-colors text-left"
+                className="group w-full flex items-center justify-between gap-4 px-4 py-3.5 rounded-xl hover:bg-muted/50 transition-colors text-left"
                 data-testid={`other-projects-category-${category.id}`}
               >
-                <span className="text-base md:text-lg font-semibold text-foreground">
+                <span className="text-xl md:text-2xl font-bold text-foreground transition-colors group-data-[state=open]:text-[var(--vintage-accent)]">
                   {category.name}
                 </span>
                 <span className="flex items-center gap-3 shrink-0">
-                  <span className="text-xs text-muted-foreground">
+                  <span className="text-xs text-muted-foreground group-data-[state=open]:text-[var(--vintage-accent)]/70 transition-colors">
                     {category.projects.length} project{category.projects.length === 1 ? "" : "s"}
                   </span>
-                  <ChevronDown className="w-4 h-4 text-muted-foreground transition-transform duration-200 group-data-[state=open]:rotate-180" />
+                  <ChevronDown className="w-5 h-5 text-muted-foreground transition-all duration-200 group-data-[state=open]:rotate-180 group-data-[state=open]:text-[var(--vintage-accent)]" />
                 </span>
               </CollapsibleTrigger>
 
