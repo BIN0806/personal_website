@@ -5,7 +5,7 @@ import { Github, ChevronLeft, ChevronRight, ChevronDown } from "lucide-react";
 import { projects, selfLearning } from "@/data/portfolio-data";
 import OtherProjectsSection from "@/components/other-projects-section";
 import CollapsibleSection from "@/components/collapsible-section";
-import ResumeSection from "@/components/resume-section";
+import SelfLearningSection from "@/components/self-learning-section";
 import ExtraSection from "@/components/extra-section";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import kiVideo from "@/demo/ki.mp4";
@@ -252,14 +252,7 @@ export default function PortfolioSection() {
 
         <OtherProjectsSection isInView={isInView} delay={0.2} />
 
-        <ResumeSection
-          title="Self-Learning"
-          sectionId="self-learning"
-          entries={selfLearning}
-          isInView={isInView}
-          delay={0.3}
-          testIdPrefix="self-learning"
-        />
+        <SelfLearningSection entries={selfLearning} isInView={isInView} delay={0.3} />
 
         <ExtraSection />
       </div>

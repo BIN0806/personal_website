@@ -1,0 +1,47 @@
+name: Sync Obsidian Graph
+
+on:
+  repository_dispatch:
+    types: [obsidian-vault-updated]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+
+      - name: Checkout Obsidian vault
+        uses: actions/checkout@v4
+        with:
+          repository: BIN0806/ObsidianVerse
+          token: ${{ secrets.OBSIDIAN_VAULT_TOKEN }}
+          path: vault
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Generate graph JSON
+        run: |
+          node scripts/generate-obsidian-graph.mjs \
+            --vault vault/MultiVerse \
+            --out client/public/obsidian-graph.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add client/public/obsidian-graph.json
+          if git diff --staged --quiet; then
+            echo "No graph changes"
+            exit 0
+          fi
+          git commit -m "chore(self-learning): sync Obsidian graph from vault"
+          git push

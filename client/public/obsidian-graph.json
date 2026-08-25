@@ -1,0 +1,3158 @@
+{
+  "generatedAt": "2026-08-25T06:08:57.193Z",
+  "vault": "ObsidianVerse/MultiVerse",
+  "nodeCount": 307,
+  "linkCount": 237,
+  "nodes": [
+    {
+      "id": "Adding new tests to",
+      "title": "Adding new tests to",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "BAIR (Speech Group)",
+      "title": "BAIR (Speech Group)",
+      "group": "Root",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/CareerVerse/Expertise",
+      "title": "Expertise",
+      "group": "BillyVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/Philosphy/Concious",
+      "title": "Concious",
+      "group": "BillyVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/Philosphy/Conflict",
+      "title": "Conflict",
+      "group": "BillyVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/Philosphy/Inspiration",
+      "title": "Inspiration",
+      "group": "BillyVerse",
+      "tags": [
+        "personal-development",
+        "values"
+      ],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/Philosphy/Love",
+      "title": "Love",
+      "group": "BillyVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/Philosphy/Politics",
+      "title": "Politics",
+      "group": "BillyVerse",
+      "tags": [
+        "perspective",
+        "philosphy"
+      ],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/Philosphy/Thinking",
+      "title": "Thinking",
+      "group": "BillyVerse",
+      "tags": [
+        "personal-development",
+        "philosphy"
+      ],
+      "exists": true
+    },
+    {
+      "id": "BillyVerse/Values/Problems",
+      "title": "Problems",
+      "group": "BillyVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/AI Coding/AI Coding Set-up",
+      "title": "AI Coding Set-up",
+      "group": "CodingVerse",
+      "tags": [
+        "AI",
+        "Code",
+        "ContextEngineering",
+        "LLM",
+        "PromptEngineering"
+      ],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/AI Coding/Prompts",
+      "title": "Prompts",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DSA Problem-Solving/Unfamilar Data Structures",
+      "title": "Unfamilar Data Structures",
+      "group": "CodingVerse",
+      "tags": [
+        "algoritihims",
+        "coding",
+        "data-structures"
+      ],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/IdeaVerse - Practical Coding/Getitng Started/Virtual Env",
+      "title": "Virtual Env",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/IdeaVerse - Practical Coding/Python Testing/(PyTest & Unit) Testing",
+      "title": "(PyTest & Unit) Testing",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/IdeaVerse - Practical Coding/Python Testing/Testing Basics",
+      "title": "Testing Basics",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Languages/Python",
+      "title": "Python",
+      "group": "CodingVerse",
+      "tags": [
+        "python",
+        "syntax"
+      ],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Attentions",
+      "title": "Attentions",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Deep Learning",
+      "title": "Deep Learning",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Fundamentals",
+      "title": "Fundamentals",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Gradient Descent",
+      "title": "Gradient Descent",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/LLM",
+      "title": "LLM",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Neural Network/Activations",
+      "title": "Activations",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Neural Network/Backpropagation",
+      "title": "Backpropagation",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Neural Network/Cost Function",
+      "title": "Cost Function",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Neural Network/Neural Networks",
+      "title": "Neural Networks",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Problems",
+      "title": "Problems",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/PyTorch",
+      "title": "PyTorch",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Softmax",
+      "title": "Softmax",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Transformers",
+      "title": "Transformers",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Cuda",
+      "title": "Cuda",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Excalidraw/Drawing 2026-02-14 12.13.23.excalidraw",
+      "title": "Drawing 2026-02-14 12.13.23.excalidraw",
+      "group": "Excalidraw",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "File systems",
+      "title": "File systems",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Floating point",
+      "title": "Floating point",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "General Algorithims",
+      "title": "General Algorithims",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Industry/Trading/Practice Questions",
+      "title": "Practice Questions",
+      "group": "Industry",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "IW-Queues/Expertise",
+      "title": "Expertise",
+      "group": "IW-Queues",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "IW-Queues/School (CS & MATH)",
+      "title": "School (CS & MATH)",
+      "group": "IW-Queues",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Kube",
+      "title": "Kube",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "LLM-D/AI-Aware Router",
+      "title": "AI-Aware Router",
+      "group": "LLM-D",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "LLM-D/KV Cache",
+      "title": "KV Cache",
+      "group": "LLM-D",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "LLM-D/LLM-D Research",
+      "title": "LLM-D Research",
+      "group": "LLM-D",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "LLM-D/Pre-fill & Decode disaggregation",
+      "title": "Pre-fill & Decode disaggregation",
+      "group": "LLM-D",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Loss Function",
+      "title": "Loss Function",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Memory Management",
+      "title": "Memory Management",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "page",
+      "title": "page",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Persistent Storage",
+      "title": "Persistent Storage",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Pintos",
+      "title": "Pintos",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Prefix Sums",
+      "title": "Prefix Sums",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "protocols",
+      "title": "protocols",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Routing Dec",
+      "title": "Routing Dec",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Scheduling",
+      "title": "Scheduling",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "SchoolVerse/IdeaVerse - Database/DataBase",
+      "title": "DataBase",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/IdeaVerse - Database/SQl",
+      "title": "SQl",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/ARP",
+      "title": "ARP",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/CDNs",
+      "title": "CDNs",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/CS168",
+      "title": "CS168",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Data Transfer",
+      "title": "Data Transfer",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Datacenter",
+      "title": "Datacenter",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Directed Delivery Tree",
+      "title": "Directed Delivery Tree",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Distance-Vector Enhancements",
+      "title": "Distance-Vector Enhancements",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/DVMRP, CBT",
+      "title": "DVMRP, CBT",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Efficient Forwarding with Tries",
+      "title": "Efficient Forwarding with Tries",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Error Response Packets",
+      "title": "Error Response Packets",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Ethernet",
+      "title": "Ethernet",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Forwarding Pipeline on Hardware",
+      "title": "Forwarding Pipeline on Hardware",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/How da fuck the internet",
+      "title": "How da fuck the internet",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/HTTP",
+      "title": "HTTP",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/IGMP",
+      "title": "IGMP",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Infrastructure/Archietecure",
+      "title": "Archietecure",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Infrastructure/Protocol",
+      "title": "Protocol",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Internet",
+      "title": "Internet",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Addressing",
+      "title": "IP Addressing",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Header",
+      "title": "IP Header",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Multicast",
+      "title": "IP Multicast",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Least-Cost Routing",
+      "title": "Least-Cost Routing",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Link",
+      "title": "Link",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Link State Protocols",
+      "title": "Link State Protocols",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Network",
+      "title": "Network",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/(3-4 ON Tablet)",
+      "title": "(3-4 ON Tablet)",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Autonomous Systems",
+      "title": "Autonomous Systems",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/BGP Implementation",
+      "title": "BGP Implementation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Border Gateway Protocol",
+      "title": "Border Gateway Protocol",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 1",
+      "title": "CS168 Note 1",
+      "group": "SchoolVerse",
+      "tags": [
+        "internet",
+        "systems"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 10",
+      "title": "CS168 Note 10",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 11-14",
+      "title": "CS168 Note 11-14",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 12-14",
+      "title": "CS168 Note 12-14",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 NOTE 15-17",
+      "title": "CS168 NOTE 15-17",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 17",
+      "title": "CS168 Note 17",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 18",
+      "title": "CS168 Note 18",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 19",
+      "title": "CS168 Note 19",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 2",
+      "title": "CS168 Note 2",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 NOTE 20",
+      "title": "CS168 NOTE 20",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 21",
+      "title": "CS168 Note 21",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 5",
+      "title": "CS168 Note 5",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 6",
+      "title": "CS168 Note 6",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 7",
+      "title": "CS168 Note 7",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 8",
+      "title": "CS168 Note 8",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 9",
+      "title": "CS168 Note 9",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Demultiplexing",
+      "title": "Demultiplexing",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Gao-Rexford Rules",
+      "title": "Gao-Rexford Rules",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Inter-domain",
+      "title": "Inter-domain",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Message Types of BGP",
+      "title": "Message Types of BGP",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Multiple Links Between ASes",
+      "title": "Multiple Links Between ASes",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Reliability",
+      "title": "Reliability",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Untitled 1",
+      "title": "Untitled 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Packets",
+      "title": "Packets",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Progression",
+      "title": "Progression",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Resource Sharing",
+      "title": "Resource Sharing",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Routers",
+      "title": "Routers",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Routing Algorithims",
+      "title": "Routing Algorithims",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Routing Decisions",
+      "title": "Routing Decisions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Routing Protocols",
+      "title": "Routing Protocols",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/TCP",
+      "title": "TCP",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/TraceRoute/Error",
+      "title": "Error",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Types of Packets",
+      "title": "Types of Packets",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Untitled",
+      "title": "Untitled",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Validity",
+      "title": "Validity",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/Window",
+      "title": "Window",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Definitions",
+      "title": "Definitions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Block Matrices",
+      "title": "Block Matrices",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Dual Proof",
+      "title": "Dual Proof",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Fundamental Theorem of Linear Algebra",
+      "title": "Fundamental Theorem of Linear Algebra",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Inequalities",
+      "title": "Inequalities",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Low-Rank Approximation",
+      "title": "Low-Rank Approximation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Matrices",
+      "title": "Matrices",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/SVD",
+      "title": "SVD",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Symmetric Matrix",
+      "title": "Symmetric Matrix",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Untitled",
+      "title": "Untitled",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Vector & Functions",
+      "title": "Vector & Functions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Vectors",
+      "title": "Vectors",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 1",
+      "title": "EECS127 Note 1",
+      "group": "SchoolVerse",
+      "tags": [
+        "Linear-Algebra",
+        "Matrix-Theory"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 2",
+      "title": "EECS127 Note 2",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 3",
+      "title": "EECS127 Note 3",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 4",
+      "title": "EECS127 Note 4",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 5",
+      "title": "EECS127 Note 5",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 8-11",
+      "title": "EECS127 Note 8-11",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note Lin ALg Review",
+      "title": "EECS127 Note Lin ALg Review",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/N?A EECS127 NOTE 6",
+      "title": "N?A EECS127 NOTE 6",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/N?A EECS127 Note 7",
+      "title": "N?A EECS127 Note 7",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Format/Notations",
+      "title": "Notations",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Format/Structures/Classes of Problems",
+      "title": "Classes of Problems",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Format/Structures/Linear Programming",
+      "title": "Linear Programming",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Format/Structures/Problems/Least-Squares",
+      "title": "Least-Squares",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Tricks/Problem-Solving Optimization",
+      "title": "Problem-Solving Optimization",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Optimization/Theorems",
+      "title": "Theorems",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Atomic Operations",
+      "title": "Atomic Operations",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/C Programming",
+      "title": "C Programming",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Concurrency",
+      "title": "Concurrency",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Condition Variable",
+      "title": "Condition Variable",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Cloud Computing",
+      "title": "Cloud Computing",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Generality",
+      "title": "Generality",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Internet",
+      "title": "Internet",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Media Players",
+      "title": "Media Players",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Mulit-User Database System",
+      "title": "Mulit-User Database System",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Multiplayer Games",
+      "title": "Multiplayer Games",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Parallel applications",
+      "title": "Parallel applications",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Design Patterns/Web Browser",
+      "title": "Web Browser",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Hardware/Modes",
+      "title": "Modes",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Kernels & Process",
+      "title": "Kernels & Process",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Monitors",
+      "title": "Monitors",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Mutual Exclusion",
+      "title": "Mutual Exclusion",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/(3-6 ON Tablet)",
+      "title": "(3-6 ON Tablet)",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 1",
+      "title": "CS162 Note 1",
+      "group": "SchoolVerse",
+      "tags": [
+        "operating-systems"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 10",
+      "title": "CS162 Note 10",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 11",
+      "title": "CS162 Note 11",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 12",
+      "title": "CS162 Note 12",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 13",
+      "title": "CS162 Note 13",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 18",
+      "title": "CS162 Note 18",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 19",
+      "title": "CS162 Note 19",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 2",
+      "title": "CS162 Note 2",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 20",
+      "title": "CS162 Note 20",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 note 22",
+      "title": "CS162 note 22",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 23",
+      "title": "CS162 Note 23",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 7",
+      "title": "CS162 Note 7",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 8",
+      "title": "CS162 Note 8",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 9",
+      "title": "CS162 Note 9",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note22",
+      "title": "CS162 Note22",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/Readers & Writers",
+      "title": "Readers & Writers",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/Scheduling Intro",
+      "title": "Scheduling Intro",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Operating Systems",
+      "title": "Operating Systems",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/80x86 calling convention",
+      "title": "80x86 calling convention",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Accessing user memory",
+      "title": "Accessing user memory",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Adding new tests to Pintos",
+      "title": "Adding new tests to Pintos",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Adding source files",
+      "title": "Adding source files",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/ASSERT",
+      "title": "ASSERT",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Backtraces",
+      "title": "Backtraces",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Block Allocator",
+      "title": "Block Allocator",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Building Pintos",
+      "title": "Building Pintos",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Context Switch",
+      "title": "Context Switch",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "title": "CS162 Proj PintOS",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging page faults",
+      "title": "Debugging page faults",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging panics",
+      "title": "Debugging panics",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging Pintos tests",
+      "title": "Debugging Pintos tests",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "title": "Development",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Function and Parameter Attributes",
+      "title": "Function and Parameter Attributes",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/GDB",
+      "title": "GDB",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/General Tips",
+      "title": "General Tips",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/How user programs work",
+      "title": "How user programs work",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Lists",
+      "title": "Lists",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Memory allocation",
+      "title": "Memory allocation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "title": "Overview",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Page Allocator",
+      "title": "Page Allocator",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "title": "Pintos Source Tree - Subdirectories",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/printf",
+      "title": "printf",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes",
+      "title": "Processes",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes Details",
+      "title": "Processes Details",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes Structs",
+      "title": "Processes Structs",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Program startup details",
+      "title": "Program startup details",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Running Pintos tests",
+      "title": "Running Pintos tests",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Source Files",
+      "title": "Source Files",
+      "group": "SchoolVerse",
+      "tags": [
+        "endif"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Switching threads",
+      "title": "Switching threads",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Syscalls",
+      "title": "Syscalls",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/The Thread Struct",
+      "title": "The Thread Struct",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Thread Functions",
+      "title": "Thread Functions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Threads",
+      "title": "Threads",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Triple Faults",
+      "title": "Triple Faults",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Understanding Threads",
+      "title": "Understanding Threads",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "title": "User Programs",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Using the file system",
+      "title": "Using the file system",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Virtual memory layout",
+      "title": "Virtual memory layout",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Pipe",
+      "title": "Pipe",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Process Control Block",
+      "title": "Process Control Block",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Producer-Consumer",
+      "title": "Producer-Consumer",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Proj 3",
+      "title": "Proj 3",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Semaphores",
+      "title": "Semaphores",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Adoption",
+      "title": "Adoption",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Communication",
+      "title": "Communication",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Faults/Isolation Faults",
+      "title": "Isolation Faults",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Performace",
+      "title": "Performace",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Portability",
+      "title": "Portability",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Reliability Vs Availability",
+      "title": "Reliability Vs Availability",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Security",
+      "title": "Security",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Virutalization",
+      "title": "Virutalization",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Synchronization",
+      "title": "Synchronization",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - OS/Thread Pool",
+      "title": "Thread Pool",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Almost Sure Convergence",
+      "title": "Almost Sure Convergence",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Bayes Rules",
+      "title": "Bayes Rules",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Conditional Probability",
+      "title": "Conditional Probability",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Continous/Continous expectation",
+      "title": "Continous expectation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Continous/Continuous RV & PDFS",
+      "title": "Continuous RV & PDFS",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Convolutions",
+      "title": "Convolutions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Discrete Uniform + Counting",
+      "title": "Discrete Uniform + Counting",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Distrubuitions/HyperGeometric",
+      "title": "HyperGeometric",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Distrubuitions/Normal",
+      "title": "Normal",
+      "group": "SchoolVerse",
+      "tags": [
+        "Distrubuition"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Expectation",
+      "title": "Expectation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Independence",
+      "title": "Independence",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Independence RV",
+      "title": "Independence RV",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Inequalities",
+      "title": "Inequalities",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Joint Continuous Random Variables",
+      "title": "Joint Continuous Random Variables",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Joint PMFS",
+      "title": "Joint PMFS",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Normal Random Variable",
+      "title": "Normal Random Variable",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Piecewise",
+      "title": "Piecewise",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probabilistic Models",
+      "title": "Probabilistic Models",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probability Mass Functions",
+      "title": "Probability Mass Functions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probability Theorems",
+      "title": "Probability Theorems",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Bernoulli Random Variables",
+      "title": "Bernoulli Random Variables",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Binomial",
+      "title": "Binomial",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Discrete Random Variables",
+      "title": "Discrete Random Variables",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Functions of Random Variables",
+      "title": "Functions of Random Variables",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Geometric Random Variables",
+      "title": "Geometric Random Variables",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Poisson Random Variable",
+      "title": "Poisson Random Variable",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Set Theory",
+      "title": "Set Theory",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Total Probability",
+      "title": "Total Probability",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Transforms",
+      "title": "Transforms",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Variance",
+      "title": "Variance",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Bernoulli Process",
+      "title": "Bernoulli Process",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Borel-Cantelli Lemma",
+      "title": "Borel-Cantelli Lemma",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Conditional Exp as a RV",
+      "title": "Conditional Exp as a RV",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Conditional PDF",
+      "title": "Conditional PDF",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Conditioning On Events",
+      "title": "Conditioning On Events",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Convergence in Distribution",
+      "title": "Convergence in Distribution",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Convergence in Expectation",
+      "title": "Convergence in Expectation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Convergence in Probability",
+      "title": "Convergence in Probability",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Covariance & Correlation",
+      "title": "Covariance & Correlation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Cumulative Distribution Functions",
+      "title": "Cumulative Distribution Functions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Derived Distrbutions",
+      "title": "Derived Distrbutions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Joint CDFs",
+      "title": "Joint CDFs",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Least-Square Estimation",
+      "title": "Least-Square Estimation",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Multiple Continous RV",
+      "title": "Multiple Continous RV",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Normal RV",
+      "title": "Normal RV",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 1 (Ch.1)",
+      "title": "EECS126 Note 1 (Ch.1)",
+      "group": "SchoolVerse",
+      "tags": [
+        "conditional-probability",
+        "probability"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 10",
+      "title": "EECS126 Note 10",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 11",
+      "title": "EECS126 Note 11",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 12",
+      "title": "EECS126 Note 12",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 13",
+      "title": "EECS126 Note 13",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 2",
+      "title": "EECS126 Note 2",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "title": "EECS126 Note 3",
+      "group": "SchoolVerse",
+      "tags": [
+        "Counting",
+        "Discrete-Random-Variables"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 4",
+      "title": "EECS126 Note 4",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 5",
+      "title": "EECS126 Note 5",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 6",
+      "title": "EECS126 Note 6",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 7",
+      "title": "EECS126 Note 7",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 9",
+      "title": "EECS126 Note 9",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "title": "EECS126 Note Ch3-4",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Practice/Optiver OA",
+      "title": "Optiver OA",
+      "group": "SchoolVerse",
+      "tags": [
+        "practice",
+        "probability",
+        "problem-solving"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Problem Solving Strategies/General Solving Tips",
+      "title": "General Solving Tips",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Problem Solving Strategies/Popular Problems",
+      "title": "Popular Problems",
+      "group": "SchoolVerse",
+      "tags": [
+        "intuition",
+        "probability",
+        "problem-solving"
+      ],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/SLLN",
+      "title": "SLLN",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Stochastic Process",
+      "title": "Stochastic Process",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Sum of Ind RV - Convulutions",
+      "title": "Sum of Ind RV - Convulutions",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/Sum of Random Number of Ind RV",
+      "title": "Sum of Random Number of Ind RV",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2026/IdeaVerse - Probability/The Bivariate Normal Distrubution",
+      "title": "The Bivariate Normal Distrubution",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "STP",
+      "title": "STP",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "TemplateVerse/Math Template",
+      "title": "Math Template",
+      "group": "TemplateVerse",
+      "tags": [
+        "math",
+        "problem-solving"
+      ],
+      "exists": true
+    },
+    {
+      "id": "TemplateVerse/Note Template",
+      "title": "Note Template",
+      "group": "TemplateVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "TensorRT",
+      "title": "TensorRT",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    },
+    {
+      "id": "Transport layer",
+      "title": "Transport layer",
+      "group": "Unresolved",
+      "tags": [],
+      "exists": false
+    }
+  ],
+  "links": [
+    {
+      "source": "CodingVerse/AI Coding/AI Coding Set-up",
+      "target": "CodingVerse/AI Coding/Prompts"
+    },
+    {
+      "source": "CodingVerse/DSA Problem-Solving/Unfamilar Data Structures",
+      "target": "Prefix Sums"
+    },
+    {
+      "source": "CodingVerse/IdeaVerse - Practical Coding/Python Testing/(PyTest & Unit) Testing",
+      "target": "CodingVerse/IdeaVerse - Practical Coding/Getitng Started/Virtual Env"
+    },
+    {
+      "source": "CodingVerse/IdeaVerse - Practical Coding/Python Testing/(PyTest & Unit) Testing",
+      "target": "CodingVerse/IdeaVerse - Practical Coding/Python Testing/Testing Basics"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Deep Learning",
+      "target": "CodingVerse/Machine Learning/Neural Network/Neural Networks"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Deep Learning",
+      "target": "CodingVerse/Machine Learning/Neural Network/Backpropagation"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Fundamentals",
+      "target": "CodingVerse/Machine Learning/Neural Network/Neural Networks"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Fundamentals",
+      "target": "CodingVerse/Machine Learning/Neural Network/Activations"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Fundamentals",
+      "target": "CodingVerse/Machine Learning/Gradient Descent"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/LLM",
+      "target": "CodingVerse/Machine Learning/Transformers"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Neural Network/Backpropagation",
+      "target": "CodingVerse/Machine Learning/Neural Network/Neural Networks"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Neural Network/Cost Function",
+      "target": "CodingVerse/Machine Learning/Gradient Descent"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Neural Network/Neural Networks",
+      "target": "CodingVerse/Machine Learning/Neural Network/Activations"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Neural Network/Neural Networks",
+      "target": "CodingVerse/Machine Learning/Neural Network/Cost Function"
+    },
+    {
+      "source": "CodingVerse/Machine Learning/Transformers",
+      "target": "CodingVerse/Machine Learning/Attentions"
+    },
+    {
+      "source": "LLM-D/AI-Aware Router",
+      "target": "LLM-D/Pre-fill & Decode disaggregation"
+    },
+    {
+      "source": "LLM-D/AI-Aware Router",
+      "target": "LLM-D/KV Cache"
+    },
+    {
+      "source": "LLM-D/LLM-D Research",
+      "target": "LLM-D/AI-Aware Router"
+    },
+    {
+      "source": "LLM-D/LLM-D Research",
+      "target": "TensorRT"
+    },
+    {
+      "source": "LLM-D/LLM-D Research",
+      "target": "Cuda"
+    },
+    {
+      "source": "LLM-D/LLM-D Research",
+      "target": "Kube"
+    },
+    {
+      "source": "LLM-D/LLM-D Research",
+      "target": "CodingVerse/Machine Learning/PyTorch"
+    },
+    {
+      "source": "SchoolVerse/IdeaVerse - Database/DataBase",
+      "target": "General Algorithims"
+    },
+    {
+      "source": "SchoolVerse/IdeaVerse - Database/DataBase",
+      "target": "page"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Data Transfer",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Packets"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Data Transfer",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Link"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Addressing",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Header"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Internet",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Network"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Internet",
+      "target": "protocols"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Internet",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Progression"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Least-Cost Routing",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Routing Algorithims"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Network",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Internet"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Autonomous Systems",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Gao-Rexford Rules"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/BGP Implementation",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Message Types of BGP"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Border Gateway Protocol",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/BGP Implementation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 NOTE 15-17",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/HTTP"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 NOTE 15-17",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/CDNs"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 NOTE 15-17",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Ethernet"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 NOTE 15-17",
+      "target": "STP"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 1",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Internet"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 1",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Infrastructure/Protocol"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Border Gateway Protocol"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/BGP Implementation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Addressing"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Message Types of BGP"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Multiple Links Between ASes"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 11-14",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Addressing"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 11-14",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Demultiplexing"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 11-14",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Reliability"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 12-14",
+      "target": "Transport layer"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 12-14",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/TCP"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 17",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/ARP"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 17",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/How da fuck the internet"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 18",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Datacenter"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Data Transfer"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Resource Sharing"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Packets"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 21",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Multicast"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 21",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/IGMP"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 21",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/DVMRP, CBT"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Error Response Packets"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Routers"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 6",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Routing Algorithims"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 7",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Link State Protocols"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 7",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/IP Addressing"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Routers"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Types of Packets"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Forwarding Pipeline on Hardware"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Efficient Forwarding with Tries"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 9",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Inter-domain"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 9",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Autonomous Systems"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 9",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Border Gateway Protocol"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Inter-domain",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Autonomous Systems"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Inter-domain",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Gao-Rexford Rules"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/Reliability",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Window"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Routers",
+      "target": "Routing Dec"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Routers",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Routing Protocols"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Routers",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Validity"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Routers",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Least-Cost Routing"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Routing Algorithims",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Distance-Vector Enhancements"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Validity",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/Directed Delivery Tree"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Atomic Operations",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Synchronization"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Concurrency",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Thread Pool"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 1",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Kernels & Process"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 1",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Operating Systems"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/Readers & Writers"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/Scheduling Intro"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 7",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Threads"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 7",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Process Control Block"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 7",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Concurrency"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 7",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Mutual Exclusion"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 7",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Atomic Operations"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Mutual Exclusion"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Condition Variable"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Atomic Operations"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 8",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Synchronization"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 8",
+      "target": "Scheduling"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 9",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Atomic Operations"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 9",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Producer-Consumer"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Operating Systems",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Kernels & Process"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Operating Systems",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Concurrency"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Operating Systems",
+      "target": "Memory Management"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Operating Systems",
+      "target": "Persistent Storage"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/ASSERT",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Backtraces"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Block Allocator",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Page Allocator"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Threads"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Memory allocation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Lists"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "Floating point"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Synchronization"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/CS162 Proj PintOS",
+      "target": "File systems"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging Pintos tests",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Running Pintos tests"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging page faults",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging Pintos tests"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/printf"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/ASSERT"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Function and Parameter Attributes"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Backtraces"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/GDB"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Triple Faults"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Development",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/General Tips"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/How user programs work",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Memory allocation",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Page Allocator"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Memory allocation",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Block Allocator"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Building Pintos"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Using the file system"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Running Pintos tests"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging Pintos tests"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging page faults"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging panics"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Overview",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Adding source files"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Source Files"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/How user programs work"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Virtual memory layout"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Accessing user memory"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Switching threads"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/80x86 calling convention"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Program startup details"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "Adding new tests to"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "Pintos"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Pintos Source Tree - Subdirectories",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Syscalls"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes Details"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Processes Structs"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Program startup details",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/80x86 calling convention"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Switching threads",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Debugging page faults"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Syscalls",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/80x86 calling convention"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/The Thread Struct",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Memory allocation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Threads",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Understanding Threads"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Threads",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/The Thread Struct"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Threads",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Thread Functions"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Threads",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Context Switch"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Source Files"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Virtual memory layout"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Accessing user memory"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Switching threads"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/80x86 calling convention"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Program startup details"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Adding new tests to Pintos"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/User Programs",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Syscalls"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Using the file system",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Synchronization"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/printf",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/PintOS/Triple Faults"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Process Control Block",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Pipe"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Producer-Consumer",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Semaphores"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Producer-Consumer",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Monitors"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Faults/Isolation Faults",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Security"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Security",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Reliability Vs Availability"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Virutalization",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Faults/Isolation Faults"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - OS/Synchronization",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Atomic Operations"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 1",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Format/Structures/Linear Programming"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 1",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Format/Structures/Classes of Problems"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 1",
+      "target": "Loss Function"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Vectors"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Matrices"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Fundamental Theorem of Linear Algebra"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Fundamental Theorem of Linear Algebra"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Symmetric Matrix"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/SVD"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Low-Rank Approximation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Notes/EECS127 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Block Matrices"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Optimization/Optimization Tricks/Problem-Solving Optimization",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Optimization/Linear Algebra/Inequalities"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probabilistic Models",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Problem Solving Strategies/General Solving Tips"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probability Theorems",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Distrubuitions/Normal"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probability Theorems",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Inequalities"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Bernoulli Random Variables",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Binomial"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Discrete Random Variables",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probability Mass Functions"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Poisson Random Variable",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Binomial"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Multiple Continous RV",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Joint CDFs"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 1 (Ch.1)",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probabilistic Models"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 1 (Ch.1)",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Set Theory"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 1 (Ch.1)",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Conditional Probability"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Almost Sure Convergence"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/SLLN"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Borel-Cantelli Lemma"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Convergence in Probability"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Convergence in Distribution"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 10",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Convergence in Expectation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Total Probability"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Bayes Rules"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 2",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Independence"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Discrete Uniform + Counting"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Discrete Random Variables"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Probability Mass Functions"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Bernoulli Random Variables"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Geometric Random Variables"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Poisson Random Variable"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 3",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Random Variables/Functions of Random Variables"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Expectation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Variance"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Joint PMFS"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Conditional Probability"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Independence RV"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Continous/Continuous RV & PDFS"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Continous/Continous expectation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 5",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Transforms"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 6",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Normal Random Variable"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 6",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Conditional PDF"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 6",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Piecewise"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 6",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Joint Continuous Random Variables"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note 9",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Stochastic Process"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Continous/Continuous RV & PDFS"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Cumulative Distribution Functions"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Normal RV"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Conditioning On Events"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Multiple Continous RV"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Derived Distrbutions"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Basic Probability/Transforms"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Sum of Ind RV - Convulutions"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Conditional Exp as a RV"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Sum of Random Number of Ind RV"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Covariance & Correlation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Least-Square Estimation"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Notes/EECS126 Note Ch3-4",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/The Bivariate Normal Distrubution"
+    },
+    {
+      "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Stochastic Process",
+      "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Bernoulli Process"
+    }
+  ]
+}

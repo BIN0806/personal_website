@@ -1,0 +1,19 @@
+name: Notify Website Graph Sync
+
+# Deployed on the vault repo as:
+#   .github/workflows/notify-website-graph-sync.yml
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch sync on Personal-Website
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          repository: BIN0806/Personal-Website
+          event-type: obsidian-vault-updated
