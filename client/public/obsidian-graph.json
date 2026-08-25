@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-08-25T06:33:41.196Z",
+  "generatedAt": "2026-08-25T07:00:02.259Z",
   "vault": "ObsidianVerse/MultiVerse",
-  "nodeCount": 307,
-  "linkCount": 237,
+  "nodeCount": 421,
+  "linkCount": 240,
   "nodes": [
+    {
+      "id": "- Problem Solving Strategy",
+      "title": "- Problem Solving Strategy",
+      "group": "Root",
+      "tags": [],
+      "exists": true
+    },
     {
       "id": "Adding new tests to",
       "title": "Adding new tests to",
@@ -12,9 +19,16 @@
       "exists": false
     },
     {
-      "id": "BAIR (Speech Group)",
-      "title": "BAIR (Speech Group)",
-      "group": "Root",
+      "id": "Behaviorals/Interview",
+      "title": "Interview",
+      "group": "Behaviorals",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Behaviorals/Resume",
+      "title": "Resume",
+      "group": "Behaviorals",
       "tags": [],
       "exists": true
     },
@@ -97,8 +111,148 @@
       "exists": true
     },
     {
+      "id": "CodingVerse/AI Coding/AI Design Patterns",
+      "title": "AI Design Patterns",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "CodingVerse/AI Coding/Prompts",
       "title": "Prompts",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Clean Code",
+      "title": "Clean Code",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Ambassador Pattern",
+      "title": "Ambassador Pattern",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Behavioral",
+      "title": "Behavioral",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Creational",
+      "title": "Creational",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Data Pipeline",
+      "title": "Data Pipeline",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Dependency Graph",
+      "title": "Dependency Graph",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Domain Specific Patterns",
+      "title": "Domain Specific Patterns",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Event Loop",
+      "title": "Event Loop",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Event Replay Pattern",
+      "title": "Event Replay Pattern",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Game Loop",
+      "title": "Game Loop",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/General",
+      "title": "General",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Idempotent Recieiver",
+      "title": "Idempotent Recieiver",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Interpreter Context",
+      "title": "Interpreter Context",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Metadata Mapping",
+      "title": "Metadata Mapping",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Optional",
+      "title": "Optional",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Sidecare",
+      "title": "Sidecare",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Structural",
+      "title": "Structural",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Task Queue",
+      "title": "Task Queue",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Design Patterns/Value Object",
+      "title": "Value Object",
       "group": "CodingVerse",
       "tags": [],
       "exists": true
@@ -146,6 +300,13 @@
       "exists": true
     },
     {
+      "id": "CodingVerse/Machine Learning/Activation Functions",
+      "title": "Activation Functions",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "CodingVerse/Machine Learning/Attentions",
       "title": "Attentions",
       "group": "CodingVerse",
@@ -153,8 +314,22 @@
       "exists": true
     },
     {
+      "id": "CodingVerse/Machine Learning/Dead ReLU Detector",
+      "title": "Dead ReLU Detector",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "CodingVerse/Machine Learning/Deep Learning",
       "title": "Deep Learning",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Embeddings",
+      "title": "Embeddings",
       "group": "CodingVerse",
       "tags": [],
       "exists": true
@@ -174,8 +349,29 @@
       "exists": true
     },
     {
+      "id": "CodingVerse/Machine Learning/Linear Regression",
+      "title": "Linear Regression",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "CodingVerse/Machine Learning/LLM",
       "title": "LLM",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Loss Functions",
+      "title": "Loss Functions",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Machine Learning Libraries/JAX",
+      "title": "JAX",
       "group": "CodingVerse",
       "tags": [],
       "exists": true
@@ -195,8 +391,22 @@
       "exists": true
     },
     {
+      "id": "CodingVerse/Machine Learning/Neural Network/Batch Normalization",
+      "title": "Batch Normalization",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "CodingVerse/Machine Learning/Neural Network/Cost Function",
       "title": "Cost Function",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/Neural Network/Multi-Layer Backpropagation 2",
+      "title": "Multi-Layer Backpropagation 2",
       "group": "CodingVerse",
       "tags": [],
       "exists": true
@@ -209,8 +419,15 @@
       "exists": true
     },
     {
-      "id": "CodingVerse/Machine Learning/Problems",
-      "title": "Problems",
+      "id": "CodingVerse/Machine Learning/Neural Network/RMS Normalization",
+      "title": "RMS Normalization",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Machine Learning/NLP",
+      "title": "NLP",
       "group": "CodingVerse",
       "tags": [],
       "exists": true
@@ -230,8 +447,253 @@
       "exists": true
     },
     {
+      "id": "CodingVerse/Machine Learning/Training Diagnostics",
+      "title": "Training Diagnostics",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "CodingVerse/Machine Learning/Transformers",
       "title": "Transformers",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/Object-Oriented-Programming",
+      "title": "Object-Oriented-Programming",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Distrubuted Systems/Load Balancing",
+      "title": "Load Balancing",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Distrubuted Systems/Untitled",
+      "title": "Untitled",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/DNS & Routing",
+      "title": "DNS & Routing",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Example -",
+      "title": "Example -",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Active Object",
+      "title": "Active Object",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Balking",
+      "title": "Balking",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Balking 2",
+      "title": "Balking 2",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Barrier",
+      "title": "Barrier",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Concurenncy Principles",
+      "title": "Concurenncy Principles",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Double-Checked Locking",
+      "title": "Double-Checked Locking",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Future + Promise",
+      "title": "Future + Promise",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Leader-Follower",
+      "title": "Leader-Follower",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Lock Split",
+      "title": "Lock Split",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Monitor Object",
+      "title": "Monitor Object",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Producer Consumer",
+      "title": "Producer Consumer",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Rate Limiter",
+      "title": "Rate Limiter",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Read-Write Lock",
+      "title": "Read-Write Lock",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Scheduling",
+      "title": "Scheduling",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Thread Pool",
+      "title": "Thread Pool",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Use-Cases",
+      "title": "Use-Cases",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading Design Patterns/Work Stealing",
+      "title": "Work Stealing",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading/Python",
+      "title": "Python",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Multithreading/Rust",
+      "title": "Rust",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Security Patterns/Authorization",
+      "title": "Authorization",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Security Patterns/Intercepting Validator",
+      "title": "Intercepting Validator",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Security Patterns/Private Class Data",
+      "title": "Private Class Data",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Security Patterns/Secure Factory + Builder",
+      "title": "Secure Factory + Builder",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Security Patterns/Secure Proxy",
+      "title": "Secure Proxy",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Security Patterns/Single Accesses Point",
+      "title": "Single Accesses Point",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Services/Microservices & Monolith",
+      "title": "Microservices & Monolith",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Services/Observability",
+      "title": "Observability",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/Services/Untitled",
+      "title": "Untitled",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/System Design/System Optimization/Caching",
+      "title": "Caching",
       "group": "CodingVerse",
       "tags": [],
       "exists": true
@@ -300,39 +762,18 @@
       "exists": false
     },
     {
-      "id": "LLM-D/AI-Aware Router",
-      "title": "AI-Aware Router",
-      "group": "LLM-D",
-      "tags": [],
-      "exists": true
-    },
-    {
-      "id": "LLM-D/KV Cache",
-      "title": "KV Cache",
-      "group": "LLM-D",
-      "tags": [],
-      "exists": true
-    },
-    {
-      "id": "LLM-D/LLM-D Research",
-      "title": "LLM-D Research",
-      "group": "LLM-D",
-      "tags": [],
-      "exists": true
-    },
-    {
-      "id": "LLM-D/Pre-fill & Decode disaggregation",
-      "title": "Pre-fill & Decode disaggregation",
-      "group": "LLM-D",
-      "tags": [],
-      "exists": true
-    },
-    {
       "id": "Loss Function",
       "title": "Loss Function",
       "group": "Unresolved",
       "tags": [],
       "exists": false
+    },
+    {
+      "id": "MathVerse/Probability/Practice Problems",
+      "title": "Practice Problems",
+      "group": "MathVerse",
+      "tags": [],
+      "exists": true
     },
     {
       "id": "Memory Management",
@@ -377,32 +818,46 @@
       "exists": false
     },
     {
+      "id": "Research/BAIR (Speech Group)",
+      "title": "BAIR (Speech Group)",
+      "group": "Research",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Research/LLM-D/AI-Aware Router",
+      "title": "AI-Aware Router",
+      "group": "Research",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Research/LLM-D/KV Cache",
+      "title": "KV Cache",
+      "group": "Research",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Research/LLM-D/LLM-D Research",
+      "title": "LLM-D Research",
+      "group": "Research",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Research/LLM-D/Pre-fill & Decode disaggregation",
+      "title": "Pre-fill & Decode disaggregation",
+      "group": "Research",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "Routing Dec",
       "title": "Routing Dec",
       "group": "Unresolved",
       "tags": [],
       "exists": false
-    },
-    {
-      "id": "Scheduling",
-      "title": "Scheduling",
-      "group": "Unresolved",
-      "tags": [],
-      "exists": false
-    },
-    {
-      "id": "SchoolVerse/IdeaVerse - Database/DataBase",
-      "title": "DataBase",
-      "group": "SchoolVerse",
-      "tags": [],
-      "exists": true
-    },
-    {
-      "id": "SchoolVerse/IdeaVerse - Database/SQl",
-      "title": "SQl",
-      "group": "SchoolVerse",
-      "tags": [],
-      "exists": true
     },
     {
       "id": "SchoolVerse/SP2026/IdeaVerse - Internet/ARP",
@@ -2167,6 +2622,335 @@
       "exists": true
     },
     {
+      "id": "SchoolVerse/SP2027/IdeaVerse - Database/DataBase",
+      "title": "DataBase",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SP2027/IdeaVerse - Database/SQl",
+      "title": "SQl",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/61C Review",
+      "title": "61C Review",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/1. Know Your Threat Model",
+      "title": "1. Know Your Threat Model",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/10. Design in Security from Start",
+      "title": "10. Design in Security from Start",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/11. Shannon's Maxim = Don't Rely on Security through Obscurity",
+      "title": "11. Shannon's Maxim = Don't Rely on Security through Obscurity",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/2. Consider Human Factors",
+      "title": "2. Consider Human Factors",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/3. Security is Economics",
+      "title": "3. Security is Economics",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/4. Detect If You Can't Prevent",
+      "title": "4. Detect If You Can't Prevent",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/5. Defense in Depth",
+      "title": "5. Defense in Depth",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/6. Separation of Responsibility",
+      "title": "6. Separation of Responsibility",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/7. Ensure a complete medium",
+      "title": "7. Ensure a complete medium",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/8. Use Fail-Safe Defaults",
+      "title": "8. Use Fail-Safe Defaults",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/9. Least Privilege",
+      "title": "9. Least Privilege",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/High Level Principles",
+      "title": "High Level Principles",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Injection REVIEW",
+      "title": "Injection REVIEW",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/Cheatsheet + Mistakes",
+      "title": "Cheatsheet + Mistakes",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Final Review",
+      "title": "CS161 Final Review",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 1",
+      "title": "CS161 Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 10",
+      "title": "CS161 Lecture 10",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 11",
+      "title": "CS161 Lecture 11",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 12",
+      "title": "CS161 Lecture 12",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 13 (mybe redo?)",
+      "title": "CS161 Lecture 13 (mybe redo?)",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 14",
+      "title": "CS161 Lecture 14",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 15",
+      "title": "CS161 Lecture 15",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 16",
+      "title": "CS161 Lecture 16",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 17",
+      "title": "CS161 Lecture 17",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 18",
+      "title": "CS161 Lecture 18",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 19",
+      "title": "CS161 Lecture 19",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 2",
+      "title": "CS161 Lecture 2",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 20",
+      "title": "CS161 Lecture 20",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 21",
+      "title": "CS161 Lecture 21",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 22",
+      "title": "CS161 Lecture 22",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 23",
+      "title": "CS161 Lecture 23",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 24",
+      "title": "CS161 Lecture 24",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 3",
+      "title": "CS161 Lecture 3",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 4",
+      "title": "CS161 Lecture 4",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 5",
+      "title": "CS161 Lecture 5",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 6",
+      "title": "CS161 Lecture 6",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 7",
+      "title": "CS161 Lecture 7",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 8",
+      "title": "CS161 Lecture 8",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 9",
+      "title": "CS161 Lecture 9",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Pos-Midterm Review",
+      "title": "CS161 Pos-Midterm Review",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Pre-Midterm Review",
+      "title": "CS161 Pre-Midterm Review",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/Midterm Mistake",
+      "title": "Midterm Mistake",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Pre-Auth Review",
+      "title": "Pre-Auth Review",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/x86",
+      "title": "x86",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "STP",
       "title": "STP",
       "group": "Unresolved",
@@ -2184,8 +2968,8 @@
       "exists": true
     },
     {
-      "id": "TemplateVerse/Note Template",
-      "title": "Note Template",
+      "id": "TemplateVerse/Note",
+      "title": "Note",
       "group": "TemplateVerse",
       "tags": [],
       "exists": true
@@ -2203,9 +2987,27 @@
       "group": "Unresolved",
       "tags": [],
       "exists": false
+    },
+    {
+      "id": "Wells Fargo/Draft of Archiecture",
+      "title": "Draft of Archiecture",
+      "group": "Wells Fargo",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "Wells Fargo/SQL Authoring",
+      "title": "SQL Authoring",
+      "group": "Wells Fargo",
+      "tags": [],
+      "exists": true
     }
   ],
   "links": [
+    {
+      "source": "Behaviorals/Interview",
+      "target": "Behaviorals/Resume"
+    },
     {
       "source": "CodingVerse/AI Coding/AI Coding Set-up",
       "target": "CodingVerse/AI Coding/Prompts"
@@ -2267,40 +3069,32 @@
       "target": "CodingVerse/Machine Learning/Attentions"
     },
     {
-      "source": "LLM-D/AI-Aware Router",
-      "target": "LLM-D/Pre-fill & Decode disaggregation"
+      "source": "Research/LLM-D/AI-Aware Router",
+      "target": "Research/LLM-D/Pre-fill & Decode disaggregation"
     },
     {
-      "source": "LLM-D/AI-Aware Router",
-      "target": "LLM-D/KV Cache"
+      "source": "Research/LLM-D/AI-Aware Router",
+      "target": "Research/LLM-D/KV Cache"
     },
     {
-      "source": "LLM-D/LLM-D Research",
-      "target": "LLM-D/AI-Aware Router"
+      "source": "Research/LLM-D/LLM-D Research",
+      "target": "Research/LLM-D/AI-Aware Router"
     },
     {
-      "source": "LLM-D/LLM-D Research",
+      "source": "Research/LLM-D/LLM-D Research",
       "target": "TensorRT"
     },
     {
-      "source": "LLM-D/LLM-D Research",
+      "source": "Research/LLM-D/LLM-D Research",
       "target": "Cuda"
     },
     {
-      "source": "LLM-D/LLM-D Research",
+      "source": "Research/LLM-D/LLM-D Research",
       "target": "Kube"
     },
     {
-      "source": "LLM-D/LLM-D Research",
+      "source": "Research/LLM-D/LLM-D Research",
       "target": "CodingVerse/Machine Learning/PyTorch"
-    },
-    {
-      "source": "SchoolVerse/IdeaVerse - Database/DataBase",
-      "target": "General Algorithims"
-    },
-    {
-      "source": "SchoolVerse/IdeaVerse - Database/DataBase",
-      "target": "page"
     },
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Data Transfer",
@@ -2592,7 +3386,7 @@
     },
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 8",
-      "target": "Scheduling"
+      "target": "CodingVerse/System Design/Multithreading Design Patterns/Scheduling"
     },
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - OS/Notes/CS162 Note 9",
@@ -3153,6 +3947,22 @@
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Stochastic Process",
       "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Bernoulli Process"
+    },
+    {
+      "source": "SchoolVerse/SP2027/IdeaVerse - Database/DataBase",
+      "target": "General Algorithims"
+    },
+    {
+      "source": "SchoolVerse/SP2027/IdeaVerse - Database/DataBase",
+      "target": "page"
+    },
+    {
+      "source": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/High Level Principles",
+      "target": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Design Principles/1. Know Your Threat Model"
+    },
+    {
+      "source": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/Lectures/CS161 Lecture 1",
+      "target": "SchoolVerse/SP2026/IdeaVerse - OS/Software/Security"
     }
   ]
 }
