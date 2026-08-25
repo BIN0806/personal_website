@@ -15,16 +15,12 @@ npm run dev
 
 App runs at `http://localhost:5000` (or set `PORT=3000` if 5000 is taken on macOS).
 
-## Obsidian Self-Learning graph
+## Obsidian graph
 
-The Self-Learning section opens a fullscreen graph of note titles and wiki-links from the private learning vault. Note bodies are not published.
-
-Regenerate the graph locally (optional):
+Generate the Self-Learning graph JSON from a vault folder:
 
 ```bash
 node scripts/generate-obsidian-graph.mjs \
   --vault /path/to/ObsidianVerse/MultiVerse \
   --out client/public/obsidian-graph.json
 ```
-
-The graph also syncs automatically when the vault repo updates (via GitHub Actions).
