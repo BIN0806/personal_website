@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-25T07:00:02.259Z",
+  "generatedAt": "2026-08-26T19:25:43.234Z",
   "vault": "ObsidianVerse/MultiVerse",
-  "nodeCount": 421,
+  "nodeCount": 432,
   "linkCount": 240,
   "nodes": [
     {
@@ -94,6 +94,55 @@
       "id": "BillyVerse/Values/Problems",
       "title": "Problems",
       "group": "BillyVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BrushUpVerse/Data Science",
+      "title": "Data Science",
+      "group": "BrushUpVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BrushUpVerse/Machine Learning",
+      "title": "Machine Learning",
+      "group": "BrushUpVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BrushUpVerse/Networking",
+      "title": "Networking",
+      "group": "BrushUpVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BrushUpVerse/Operating Systems",
+      "title": "Operating Systems",
+      "group": "BrushUpVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BrushUpVerse/Optimization",
+      "title": "Optimization",
+      "group": "BrushUpVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BrushUpVerse/Probability",
+      "title": "Probability",
+      "group": "BrushUpVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "BrushUpVerse/Statistics",
+      "title": "Statistics",
+      "group": "BrushUpVerse",
       "tags": [],
       "exists": true
     },
@@ -853,11 +902,53 @@
       "exists": true
     },
     {
+      "id": "Research/Systems/Untitled",
+      "title": "Untitled",
+      "group": "Research",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "Routing Dec",
       "title": "Routing Dec",
       "group": "Unresolved",
       "tags": [],
       "exists": false
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Database/CS186 Lecture 1",
+      "title": "CS186 Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Database/DataBase",
+      "title": "DataBase",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Database/Learn Concepts",
+      "title": "Learn Concepts",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Database/SQl",
+      "title": "SQl",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Database/Untitled",
+      "title": "Untitled",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
     },
     {
       "id": "SchoolVerse/SP2026/IdeaVerse - Internet/ARP",
@@ -2622,20 +2713,6 @@
       "exists": true
     },
     {
-      "id": "SchoolVerse/SP2027/IdeaVerse - Database/DataBase",
-      "title": "DataBase",
-      "group": "SchoolVerse",
-      "tags": [],
-      "exists": true
-    },
-    {
-      "id": "SchoolVerse/SP2027/IdeaVerse - Database/SQl",
-      "title": "SQl",
-      "group": "SchoolVerse",
-      "tags": [],
-      "exists": true
-    },
-    {
       "id": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/61C Review",
       "title": "61C Review",
       "group": "SchoolVerse",
@@ -3095,6 +3172,14 @@
     {
       "source": "Research/LLM-D/LLM-D Research",
       "target": "CodingVerse/Machine Learning/PyTorch"
+    },
+    {
+      "source": "SchoolVerse/FA2026/IdeaVerse - Database/DataBase",
+      "target": "General Algorithims"
+    },
+    {
+      "source": "SchoolVerse/FA2026/IdeaVerse - Database/DataBase",
+      "target": "page"
     },
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Data Transfer",
@@ -3947,14 +4032,6 @@
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - Probability/Stochastic Process",
       "target": "SchoolVerse/SP2026/IdeaVerse - Probability/Bernoulli Process"
-    },
-    {
-      "source": "SchoolVerse/SP2027/IdeaVerse - Database/DataBase",
-      "target": "General Algorithims"
-    },
-    {
-      "source": "SchoolVerse/SP2027/IdeaVerse - Database/DataBase",
-      "target": "page"
     },
     {
       "source": "SchoolVerse/SU2026/IdeaVerse - CyberSecurity/High Level Principles",
