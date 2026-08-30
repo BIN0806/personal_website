@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T19:25:43.234Z",
+  "generatedAt": "2026-08-30T06:55:22.574Z",
   "vault": "ObsidianVerse/MultiVerse",
-  "nodeCount": 432,
+  "nodeCount": 447,
   "linkCount": 240,
   "nodes": [
     {
@@ -135,13 +135,6 @@
     {
       "id": "BrushUpVerse/Probability",
       "title": "Probability",
-      "group": "BrushUpVerse",
-      "tags": [],
-      "exists": true
-    },
-    {
-      "id": "BrushUpVerse/Statistics",
-      "title": "Statistics",
       "group": "BrushUpVerse",
       "tags": [],
       "exists": true
@@ -307,7 +300,75 @@
       "exists": true
     },
     {
-      "id": "CodingVerse/DSA Problem-Solving/Unfamilar Data Structures",
+      "id": "CodingVerse/DevOps/Distributed Systems",
+      "title": "Distributed Systems",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DevOps/Docker",
+      "title": "Docker",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DevOps/Fault-Tolerance",
+      "title": "Fault-Tolerance",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DevOps/K8S",
+      "title": "K8S",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DevOps/Linux vs Unix",
+      "title": "Linux vs Unix",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DevOps/Networking",
+      "title": "Networking",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DevOps/Timing And Clock",
+      "title": "Timing And Clock",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DevOps/Using Time in Dist. Sys",
+      "title": "Using Time in Dist. Sys",
+      "group": "CodingVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DS&A/Leetcode/Segment Tree - Minimum Interval to Include Each Query",
+      "title": "Segment Tree - Minimum Interval to Include Each Query",
+      "group": "CodingVerse",
+      "tags": [
+        "Greedy",
+        "Heap",
+        "Leetcode",
+        "SegmentTree"
+      ],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DS&A/Unfamilar Data Structures",
       "title": "Unfamilar Data Structures",
       "group": "CodingVerse",
       "tags": [
@@ -902,8 +963,8 @@
       "exists": true
     },
     {
-      "id": "Research/Systems/Untitled",
-      "title": "Untitled",
+      "id": "Research/Systems/Research Goal",
+      "title": "Research Goal",
       "group": "Research",
       "tags": [],
       "exists": true
@@ -914,6 +975,34 @@
       "group": "Unresolved",
       "tags": [],
       "exists": false
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Compiler/CS164 Lecture 1",
+      "title": "CS164 Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Computer Archieture/CS152 Lecture 1",
+      "title": "CS152 Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Computer Archieture/Untitled 1",
+      "title": "Untitled 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Data Engineering/DATA101 Lecture 1",
+      "title": "DATA101 Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
     },
     {
       "id": "SchoolVerse/FA2026/IdeaVerse - Database/CS186 Lecture 1",
@@ -944,8 +1033,22 @@
       "exists": true
     },
     {
-      "id": "SchoolVerse/FA2026/IdeaVerse - Database/Untitled",
-      "title": "Untitled",
+      "id": "SchoolVerse/FA2026/IdeaVerse - Linear Modeling/STAT151A Lecture 1",
+      "title": "STAT151A Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - NLP/EECS183 Lecture 1",
+      "title": "EECS183 Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/IdeaVerse - Time Series/Stat153",
+      "title": "Stat153",
       "group": "SchoolVerse",
       "tags": [],
       "exists": true
@@ -3052,6 +3155,15 @@
       "exists": true
     },
     {
+      "id": "TemplateVerse/Problem-Solving (LC)",
+      "title": "Problem-Solving (LC)",
+      "group": "TemplateVerse",
+      "tags": [
+        "Leetcode"
+      ],
+      "exists": true
+    },
+    {
       "id": "TensorRT",
       "title": "TensorRT",
       "group": "Unresolved",
@@ -3090,7 +3202,7 @@
       "target": "CodingVerse/AI Coding/Prompts"
     },
     {
-      "source": "CodingVerse/DSA Problem-Solving/Unfamilar Data Structures",
+      "source": "CodingVerse/DS&A/Unfamilar Data Structures",
       "target": "Prefix Sums"
     },
     {
