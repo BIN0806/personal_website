@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-30T06:55:22.574Z",
+  "generatedAt": "2026-08-31T17:46:10.892Z",
   "vault": "ObsidianVerse/MultiVerse",
-  "nodeCount": 447,
+  "nodeCount": 452,
   "linkCount": 240,
   "nodes": [
     {
@@ -356,8 +356,40 @@
       "exists": true
     },
     {
-      "id": "CodingVerse/DS&A/Leetcode/Segment Tree - Minimum Interval to Include Each Query",
-      "title": "Segment Tree - Minimum Interval to Include Each Query",
+      "id": "CodingVerse/DS&A/Leetcode/Burst Balloons",
+      "title": "Burst Balloons",
+      "group": "CodingVerse",
+      "tags": [
+        "Leetcode"
+      ],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DS&A/Leetcode/Distinct Subsequences - DP",
+      "title": "Distinct Subsequences - DP",
+      "group": "CodingVerse",
+      "tags": [
+        "DP",
+        "Leetcode",
+        "Tabulation"
+      ],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DS&A/Leetcode/Longest Increasing Path - DFS + Topological Sort",
+      "title": "Longest Increasing Path - DFS + Topological Sort",
+      "group": "CodingVerse",
+      "tags": [
+        "DFS",
+        "DP",
+        "Leetcode",
+        "TopologicalSort"
+      ],
+      "exists": true
+    },
+    {
+      "id": "CodingVerse/DS&A/Leetcode/Minimum Interval to Include Each Query - Segment Tree",
+      "title": "Minimum Interval to Include Each Query - Segment Tree",
       "group": "CodingVerse",
       "tags": [
         "Greedy",
@@ -823,6 +855,13 @@
       "exists": true
     },
     {
+      "id": "Excalidraw/Drawing 2026-08-31 10.45.01.excalidraw",
+      "title": "Drawing 2026-08-31 10.45.01.excalidraw",
+      "group": "Excalidraw",
+      "tags": [],
+      "exists": true
+    },
+    {
       "id": "File systems",
       "title": "File systems",
       "group": "Unresolved",
@@ -977,8 +1016,15 @@
       "exists": false
     },
     {
-      "id": "SchoolVerse/FA2026/IdeaVerse - Compiler/CS164 Lecture 1",
+      "id": "SchoolVerse/FA2026/(Audit) IdeaVerse - Compiler/CS164 Lecture 1",
       "title": "CS164 Lecture 1",
+      "group": "SchoolVerse",
+      "tags": [],
+      "exists": true
+    },
+    {
+      "id": "SchoolVerse/FA2026/(Audit) IdeaVerse - Machine Learning/CS189 Lecture 1",
+      "title": "CS189 Lecture 1",
       "group": "SchoolVerse",
       "tags": [],
       "exists": true
@@ -1138,8 +1184,8 @@
       "exists": true
     },
     {
-      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/How da fuck the internet",
-      "title": "How da fuck the internet",
+      "id": "SchoolVerse/SP2026/IdeaVerse - Internet/How dOES the internet",
+      "title": "How dOES the internet",
       "group": "SchoolVerse",
       "tags": [],
       "exists": true
@@ -3407,7 +3453,7 @@
     },
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 17",
-      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/How da fuck the internet"
+      "target": "SchoolVerse/SP2026/IdeaVerse - Internet/How dOES the internet"
     },
     {
       "source": "SchoolVerse/SP2026/IdeaVerse - Internet/Notes/CS168 Note 18",
